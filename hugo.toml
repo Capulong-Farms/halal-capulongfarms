@@ -5,8 +5,8 @@ theme = 'capulong'
 
 [params]
   description = "Fresh produce and farm supplies from Capulong Farms, Philippines"
-  whatsapp_number = "639171234567"  # Replace with your actual WhatsApp Business number
-  gcash_qr_image = "/images/gcash-qr.png"
+  whatsapp_number = "966542761620"  # Replace with your actual WhatsApp Business number
+  gcash_qr_image = "/images/gcash-qr.jpeg"
 
 [menu]
   [[menu.main]]
