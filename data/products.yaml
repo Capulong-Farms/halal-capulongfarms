@@ -15,15 +15,15 @@ categories:
       - name: "Sweet Corn, Grade C"
         price: "₱8/pc"
         image: "/images/products/FP-Corn-Grade C.jpg"
-
+        
       - name: "Sweet Corn, Reject"
         price: "₱5/pc"
         image: "/images/products/FP-Corn-Reject.jpg"
-
+        
       - name: "Sweet Corn, Bagaso"
         price: "₱500/ton"
         image: "/images/products/FP-Corn-Hush.jpg"
-      
+        
       - name: "Tomatoes, Kamatis"
         price: "₱75/kg"
         image: "/images/products/FP-Tomatoes.jpg"
@@ -44,63 +44,63 @@ categories:
         price: "₱25/kg"
         image: "/images/products/FP-BottleGourd.jpg"
         
-       - name: "Long Beans, Sitaw"
+      - name: "Long Beans, Sitaw"
         price: "₱50/kg"
         image: "/images/products/FP-LongBean.jpg"
-
-       - name: "Green Papaya, Small"
+        
+      - name: "Green Papaya, Small"
         price: "₱25/kg"
         image: "/images/products/FP-Papaya-GreenS.jpg"
- 
-       - name: "Green Papaya, Medium"
+        
+      - name: "Green Papaya, Medium"
         price: "₱30/kg"
         image: "/images/products/FP-Papaya-GreenM.jpg"
- 
-       - name: "Green Papaya, Large"
+                 
+      - name: "Green Papaya, Large"
         price: "₱35/kg"
         image: "/images/products/FP-Papaya-GreenL.jpg"
-
-       - name: "Ripe Papaya, Small"
+        
+      - name: "Ripe Papaya, Small"
         price: "₱25/kg"
         image: "/images/products/FP-Papaya-RipeS.jpg"
-
-       - name: "Ripe Papaya, Medium"
+        
+      - name: "Ripe Papaya, Medium"
         price: "₱30/kg"
         image: "/images/products/FP-Papaya-RipeM.jpg"
-
-       - name: "Ripe Papaya, Large"
+        
+      - name: "Ripe Papaya, Large"
         price: "₱35/kg"
         image: "/images/products/FP-Papaya-RipeL.jpg"
-
-       - name: "Palay, 50kg, wet"
+        
+      - name: "Palay, 50kg, wet"
         price: "₱17/kg"
         image: "/images/products/FP-Palay-50-wet.jpg"
-
-       - name: "Palay, 50kg, dry"
+        
+      - name: "Palay, 50kg, dry"
         price: "₱21/kg"
         image: "/images/products/FP-Palay-50-dry.jpg"
-
-       - name: "Rice, Bigas 25kg"
+        
+      - name: "Rice, Bigas 25kg"
         price: "₱30/kg"
         image: "/images/products/FP-Rice-25.jpg"
-
-       - name: "Rice, Glutinous, Malagkit, 25kg"
+        
+      - name: "Rice, Glutinous, Malagkit, 25kg"
         price: "₱35/kg"
         image: "/images/products/FP-Rice-25-glutinous.jpg"
-
-       - name: "Compost Bags, 25kg"
+        
+      - name: "Compost Bags, 25kg"
         price: "₱10/kg"
         image: "/images/products/PF-Compost-25.jpg"
-
-       - name: "Compost Bags, 50kg"
+        
+      - name: "Compost Bags, 50kg"
         price: "₱10/kg"
         image: "/images/products/PF-Compost-50.jpg"
-  
-       - name: "Silage, drum"
+        
+      - name: "Silage, drum"
         price: "₱900/drum"
         image: "/images/products/PF-Silage.jpg"
-
-       - name: "Silage, drum (refill)"
+        
+      - name: "Silage, drum (refill)"
         price: "₱500/drum"
         image: "/images/products/PF-Silage-refill.jpg"
 
