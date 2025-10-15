@@ -2,6 +2,6 @@ name = "Capulong"
 license = "MIT"
 description = "Custom theme for Capulong Farms"
 homepage = "https://capulongfarms.com/"
-tags = ["farm", "ecommerce", "simple"]
+tags = ["farm", "ecommerce", "simple", "affordable", "cheap", "fresh", "organic"]
 features = ["responsive"]
 min_version = "0.120.0"
