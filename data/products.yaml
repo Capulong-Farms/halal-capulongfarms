@@ -7,11 +7,11 @@ categories:
         image: "/images/products/FP-Corn-Grade A.jpg"
         # Alternative: use external URL
         # image: "https://example.com/path/to/image.jpg"
-
+        
       - name: "Sweet Corn, Grade B"
         price: "₱10/pc"
         image: "/images/products/FP-Corn-Grade B.jpg"
-
+        
       - name: "Sweet Corn, Grade C"
         price: "₱8/pc"
         image: "/images/products/FP-Corn-Grade C.jpg"
@@ -31,8 +31,7 @@ categories:
       - name: "Eggplants, Talong"
         price: "₱50/kg"
         image: "/images/products/FP-Eggplant.jpg"
- 
-        
+         
       - name: "Lady Finger, Okra"
         price: "₱40/kg"
         image: "/images/products/FP-LadyFinger.jpg"
