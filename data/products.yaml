@@ -1,32 +1,157 @@
 categories:
-  - name: "Fresh Vegetables"
-    id: "vegetables"
+  - name: "Farm Products"
+    id: "produce"
     products:
-      - name: "Tomatoes"
-        price: "₱80/kg"
-        image: "/images/products/tomatoes.jpg"
+      - name: "Sweet Corn, Grade A"
+        price: "₱12/pc"
+        image: "/images/products/FP-Corn-Grade A.jpg"
+        # Alternative: use external URL
+        # image: "https://example.com/path/to/image.jpg"
+
+      - name: "Sweet Corn, Grade B"
+        price: "₱10/pc"
+        image: "/images/products/FP-Corn-Grade B.jpg"
+        # Alternative: use external URL
+        # image: "https://example.com/path/to/image.jpg"
+
+      - name: "Sweet Corn, Grade C"
+        price: "₱8/pc"
+        image: "/images/products/FP-Corn-Grade C.jpg"
+        # Alternative: use external URL
+        # image: "https://example.com/path/to/image.jpg"
+
+      - name: "Sweet Corn, Reject"
+        price: "₱5/pc"
+        image: "/images/products/FP-Corn-Reject.jpg"
+        # Alternative: use external URL
+        # image: "https://example.com/path/to/image.jpg"
+
+      - name: "Sweet Corn, Bagaso"
+        price: "₱500/ton"
+        image: "/images/products/FP-Corn-Hush.jpg"
+        # Alternative: use external URL
+        # image: "https://example.com/path/to/image.jpg"
+      
+      - name: "Tomatoes, Kamatis"
+        price: "₱75/kg"
+        image: "/images/products/FP-Tomatoes.jpg"
         # Alternative: use external URL
         # image: "https://example.com/path/to/image.jpg"
         
-      - name: "Lettuce"
-        price: "₱60/head"
-        image: "/images/products/lettuce.jpg"
-        
-      - name: "Carrots"
-        price: "₱70/kg"
-        image: "/images/products/carrots.jpg"
-        
-      - name: "Bell Peppers"
-        price: "₱120/kg"
-        image: "/images/products/bell-peppers.jpg"
-        
-      - name: "Eggplant"
+      - name: "Eggplants, Talong"
         price: "₱50/kg"
-        image: "/images/products/eggplant.jpg"
+        image: "/images/products/FP-Eggplant.jpg"
+        # Alternative: use external URL
+        # image: "https://example.com/path/to/image.jpg"
         
-      - name: "Cabbage"
-        price: "₱40/head"
-        image: "/images/products/cabbage.jpg"
+      - name: "Lady Finger, Okra"
+        price: "₱40/kg"
+        image: "/images/products/FP-LadyFinger.jpg"
+        # Alternative: use external URL
+        # image: "https://example.com/path/to/image.jpg"
+        
+      - name: "Bitter Gourd, Amplalaya"
+        price: "₱50/kg"
+        image: "/images/products/FP-BitterGourd.jpg"
+        # Alternative: use external URL
+        # image: "https://example.com/path/to/image.jpg"
+        
+      - name: "Bottle Gourd, Upo"
+        price: "₱25/kg"
+        image: "/images/products/FP-BottleGourd.jpg"
+        # Alternative: use external URL
+        # image: "https://example.com/path/to/image.jpg"
+        
+       - name: "Long Beans, Sitaw"
+        price: "₱50/kg"
+        image: "/images/products/FP-LongBean.jpg"
+        # Alternative: use external URL
+        # image: "https://example.com/path/to/image.jpg"
+
+       - name: "Green Papaya, Small"
+        price: "₱25/kg"
+        image: "/images/products/FP-Papaya-GreenS.jpg"
+        # Alternative: use external URL
+        # image: "https://example.com/path/to/image.jpg"
+
+       - name: "Green Papaya, Medium"
+        price: "₱30/kg"
+        image: "/images/products/FP-Papaya-GreenM.jpg"
+        # Alternative: use external URL
+        # image: "https://example.com/path/to/image.jpg"
+
+       - name: "Green Papaya, Large"
+        price: "₱35/kg"
+        image: "/images/products/FP-Papaya-GreenL.jpg"
+        # Alternative: use external URL
+        # image: "https://example.com/path/to/image.jpg"
+
+       - name: "Ripe Papaya, Small"
+        price: "₱25/kg"
+        image: "/images/products/FP-Papaya-RipeS.jpg"
+        # Alternative: use external URL
+        # image: "https://example.com/path/to/image.jpg"
+
+       - name: "Ripe Papaya, Medium"
+        price: "₱30/kg"
+        image: "/images/products/FP-Papaya-RipeM.jpg"
+        # Alternative: use external URL
+        # image: "https://example.com/path/to/image.jpg"
+
+       - name: "Ripe Papaya, Large"
+        price: "₱35/kg"
+        image: "/images/products/FP-Papaya-RipeL.jpg"
+        # Alternative: use external URL
+        # image: "https://example.com/path/to/image.jpg"
+
+       - name: "Palay, 50kg, wet"
+        price: "₱17/kg"
+        image: "/images/products/FP-Palay-50-wet.jpg"
+        # Alternative: use external URL
+        # image: "https://example.com/path/to/image.jpg"
+
+       - name: "Palay, 50kg, dry"
+        price: "₱21/kg"
+        image: "/images/products/FP-Palay-50-dry.jpg"
+        # Alternative: use external URL
+        # image: "https://example.com/path/to/image.jpg"
+
+       - name: "Rice, Bigas 25kg"
+        price: "₱30/kg"
+        image: "/images/products/FP-Rice-25.jpg"
+        # Alternative: use external URL
+        # image: "https://example.com/path/to/image.jpg"
+
+       - name: "Rice, Glutinous, Malagkit, 25kg"
+        price: "₱35/kg"
+        image: "/images/products/FP-Rice-25-glutinous.jpg"
+        # Alternative: use external URL
+        # image: "https://example.com/path/to/image.jpg"
+
+       - name: "Compost Bags, 25kg"
+        price: "₱10/kg"
+        image: "/images/products/PF-Compost-25.jpg"
+        # Alternative: use external URL
+        # image: "https://example.com/path/to/image.jpg"
+
+       - name: "Compost Bags, 50kg"
+        price: "₱10/kg"
+        image: "/images/products/PF-Compost-50.jpg"
+        # Alternative: use external URL
+        # image: "https://example.com/path/to/image.jpg"
+
+       - name: "Silage, drum"
+        price: "₱900/drum"
+        image: "/images/products/PF-Silage.jpg"
+        # Alternative: use external URL
+        # image: "https://example.com/path/to/image.jpg"
+
+       - name: "Silage, drum (refill)"
+        price: "₱500/drum"
+        image: "/images/products/PF-Silage-refill.jpg"
+        # Alternative: use external URL
+        # image: "https://example.com/path/to/image.jpg"
+
 
   - name: "Farm Supplies"
     id: "supplies"
