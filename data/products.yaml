@@ -193,7 +193,7 @@ categories:
   - name: "Livestocks & Poultry"
     id: "livestocks"
     products:
-      - name: "Ducks, Ducklings (<1 week)"
+      - name: "Ducklings (<1 week)"
         price: "₱25/chick"
         image: "/images/products/LP-Duck-Duckling.jpg"
 
