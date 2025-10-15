@@ -108,20 +108,60 @@ categories:
     id: "livestocks"
     products:
       - name: "Tilapia, Live"
-        price: "₱350/sack"
-        image: "/images/products/fertilizer.jpg"
+        price: "₱100/kg"
+        image: "/images/products/FA-Tilapia-Live.jpg"
 
-      - name: "Seeds Package"
-        price: "₱150/pack"
-        image: "/images/products/seeds.jpg"
+      - name: "Tilapia, Fresh"
+        price: "₱90/kg"
+        image: "/images/products/FA-Tilapia-Fresh.jpg"
 
-      - name: "Gardening Tools"
-        price: "₱500/set"
-        image: "/images/products/tools.jpg"
+      - name: "Tilapia, Frozen"
+        price: "₱120/kg"
+        image: "/images/products/FA-TilapiaFrozen.jpg"
 
-      - name: "Compost"
-        price: "₱200/sack"
-        image: "/images/products/compost.jpg"
+      - name: "Tilapia, Daing Kapampangan (Dried)"
+        price: "₱125/kg"
+        image: "/images/products/FA-Tilapia-Daing.jpg"
+
+      - name: "Tilapia, Marinated"
+        price: "₱125/kg"
+        image: "/images/products/FA-Tilapia-Marinated.jpg"
+
+      - name: "Tilapia, Marinated, Boneless"
+        price: "₱130/kg"
+        image: "/images/products/FA-Tilapia-Marinated-BL.jpg"
+
+      - name: "Bangus, Live"
+        price: "₱120/kg"
+        image: "/images/products/FA-Bangus-Live.jpg"
+
+      - name: "Bangus, Fresh"
+        price: "₱110/kg"
+        image: "/images/products/FA-Bangus-Fresh.jpg"
+
+      - name: "Bangus, Frozen"
+        price: "₱140/kg"
+        image: "/images/products/FA-Bangus-Frozen.jpg"
+
+      - name: "Bangus, Marinated"
+        price: "₱155/kg"
+        image: "/images/products/FA-Bangus-Marinated.jpg"
+
+      - name: "Bangus, Marinated, Boneless"
+        price: "₱160/kg"
+        image: "/images/products/FA-Bangus-Marinated-BL.jpg"
+
+      - name: "Catfish, Hito, Live"
+        price: "₱120/kg"
+        image: "/images/products/FA-Catfish-Live.jpg"
+
+      - name: "Catfish, Hito, Fresh"
+        price: "₱110/kg"
+        image: "/images/products/FA-Catfish-Fresh.jpg"
+
+      - name: "Catfish, Hito, Frozen"
+        price: "₱140/kg"
+        image: "/images/products/FA-Catfish-Catfish.jpg"
 
   - name: "Fish & Aquatics"
     id: "aquatics"
