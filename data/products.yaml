@@ -1,6 +1,6 @@
 categories:
   - name: "Farm Products"
-    id: "vegetables"
+    id: "vegetable"
     products:
       - name: "Sweet Corn, Grade A"
         price: "₱12/pc"
