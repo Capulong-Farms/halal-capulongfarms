@@ -161,19 +161,19 @@ categories:
 
       - name: "Catfish, Hito, Frozen"
         price: "₱140/kg"
-        image: "/images/products/FA-Catfish-Catfish.jpg"
+        image: "/images/products/FA-Catfish-Frozen.jpg"
 
-      - name: "Catfish, Hito, Live"
+      - name: "Snail, Feeds"
         price: "₱120/kg"
-        image: "/images/products/FA-Catfish-Live.jpg"
+        image: "/images/products/FA-Snail-Feeds.jpg"
 
-      - name: "Catfish, Hito, Fresh"
+      - name: "Snail, Fresh"
         price: "₱110/kg"
-        image: "/images/products/FA-Catfish-Fresh.jpg"
+        image: "/images/products/FA-Snail-Fresh.jpg"
 
-      - name: "Catfish, Hito, Frozen"
+      - name: "Snail, Frozen"
         price: "₱140/kg"
-        image: "/images/products/FA-Catfish-Catfish.jpg"
+        image: "/images/products/FA-Snail-Frozen.jpg"
 
   - name: "Fish & Aquatics"
     id: "aquatics"
