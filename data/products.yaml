@@ -22,7 +22,7 @@ categories:
 
       - name: "Sweet Corn, Bagaso"
         price: "₱500/ton"
-        image: "/images/products/FP-Corn-Hush.jpg"
+        image: "/images/FP-Corn-Hush.jpg"
         available: false   # <-- mark as not available
         
       - name: "Tomatoes, Kamatis"
@@ -99,11 +99,11 @@ categories:
 
       - name: "Silage, drum"
         price: "₱900/drum"
-        image: "/images/products/PF-Silage.jpg"
+        image: "/images/PF-Silage.jpg"
 
       - name: "Silage, drum (refill)"
         price: "₱500/drum"
-        image: "/images/products/PF-Silage-refill.jpg"
+        image: "/images/PF-Silage-refill.jpg"
 
   - name: "Fish & Aquatics"
     id: "aquatics"
