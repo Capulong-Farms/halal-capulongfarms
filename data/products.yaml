@@ -5,20 +5,24 @@ categories:
       - name: "Sweet Corn, Grade A"
         price: "₱12/pc"
         image: "/images/FP-Corn-Grade A.jpg"
+        available: true   # <-- mark as not available
         # Alternative: use external URL
         # image: "https://example.com/path/to/image.jpg"
 
       - name: "Sweet Corn, Grade B"
         price: "₱10/pc"
         image: "/images/FP-Corn-Grade B.jpg"
+        available: true   # <-- mark as not available
 
       - name: "Sweet Corn, Grade C"
         price: "₱8/pc"
         image: "/images/FP-Corn-Grade C.jpg"
+        available: true   # <-- mark as not available
 
       - name: "Sweet Corn, Reject"
         price: "₱5/pc"
         image: "/images/FP-Corn-Reject.jpg"
+        available: true   # <-- mark as not available
 
       - name: "Sweet Corn, Bagaso"
         price: "₱500/ton"
@@ -28,74 +32,92 @@ categories:
       - name: "Tomatoes, Kamatis"
         price: "₱75/kg"
         image: "/images/FP-Tomatoes.jpg"
+        available: true   # <-- mark as not available
         
       - name: "Eggplants, Talong"
         price: "₱50/kg"
         image: "/images/FP-Eggplant.jpg"
+        available: true   # <-- mark as not available
 
       - name: "Lady Finger, Okra"
         price: "₱40/kg"
         image: "/images/FP-LadyFinger.jpg"
+        available: true   # <-- mark as not available
 
       - name: "Bitter Gourd, Amplalaya"
         price: "₱50/kg"
         image: "/images/FP-BitterGourd.jpg"
+        available: true   # <-- mark as not available
 
       - name: "Bottle Gourd, Upo"
         price: "₱25/kg"
         image: "/images/FP-BottleGourd.jpg"
+        available: true   # <-- mark as not available
 
       - name: "Long Beans, Sitaw"
         price: "₱50/kg"
         image: "/images/FP-LongBean.jpg"
+        available: true   # <-- mark as not available
 
       - name: "Green Papaya, Small"
         price: "₱25/kg"
         image: "/images/FP-Papaya-GreenS.jpg"
+        available: true   # <-- mark as not available
 
       - name: "Green Papaya, Medium"
         price: "₱30/kg"
         image: "/images/FP-Papaya-GreenM.jpg"
+        available: true   # <-- mark as not available
 
       - name: "Green Papaya, Large"
         price: "₱35/kg"
         image: "/images/FP-Papaya-GreenL.jpg"
+        available: true   # <-- mark as not available
 
       - name: "Ripe Papaya, Small"
         price: "₱25/kg"
         image: "/images/FP-Papaya-RipeS.jpg"
+        available: true   # <-- mark as not available
 
       - name: "Ripe Papaya, Medium"
         price: "₱30/kg"
         image: "/images/FP-Papaya-RipeM.jpg"
+        available: true   # <-- mark as not available
 
       - name: "Ripe Papaya, Large"
         price: "₱35/kg"
         image: "/images/FP-Papaya-RipeL.jpg"
+        available: true   # <-- mark as not available
 
       - name: "Palay, wet, 50kg"
         price: "₱17/kg"
         image: "/images/FP-Palay-50-wet.jpg"
+        available: true   # <-- mark as not available
 
       - name: "Palay, dry, 50kg"
         price: "₱21/kg"
         image: "/images/FP-Palay-50-dry.jpg"
+        available: true   # <-- mark as not available
 
       - name: "Rice, Bigas 25kg"
         price: "₱30/kg"
         image: "/images/FP-Rice-25.jpg"
+        available: true   # <-- mark as not available
 
       - name: "Rice, Glutinous, Malagkit, 25kg"
         price: "₱35/kg"
         image: "/images/FP-Rice-25-glutinous.jpg"
+        available: true   # <-- mark as not available
 
       - name: "Compost Bags, 25kg"
         price: "₱10/kg"
         image: "/images/PF-Compost-25.jpg"
+        available: true   # <-- mark as not available
 
       - name: "Compost Bags, 50kg"
         price: "₱10/kg"
         image: "/images/PF-Compost-50.jpg"
+        available: true   # <-- mark as not available
 
       - name: "Silage, drum"
         price: "₱900/drum"
@@ -113,70 +135,87 @@ categories:
       - name: "Tilapia, Live"
         price: "₱100/kg"
         image: "/images/FA-Tilapia-Live.jpg"
+        available: true   # <-- mark as not available
 
       - name: "Tilapia, Fresh"
         price: "₱90/kg"
         image: "/images/FA-Tilapia-Fresh.jpg"
+        available: true   # <-- mark as not available
 
       - name: "Tilapia, Frozen"
         price: "₱120/kg"
         image: "/images/FA-TilapiaFrozen.jpg"
+        available: true   # <-- mark as not available
 
       - name: "Tilapia, Daing Kapampangan (Dried)"
         price: "₱125/kg"
         image: "/images/FA-Tilapia-Daing.jpg"
+        available: true   # <-- mark as not available
 
       - name: "Tilapia, Marinated"
         price: "₱125/kg"
         image: "/images/FA-Tilapia-Marinated.jpg"
+        available: true   # <-- mark as not available
 
       - name: "Tilapia, Marinated, Boneless"
         price: "₱130/kg"
         image: "/images/FA-Tilapia-Marinated-BL.jpg"
+        available: true   # <-- mark as not available
 
       - name: "Bangus, Live"
         price: "₱120/kg"
         image: "/images/FA-Bangus-Live.jpg"
+        available: true   # <-- mark as not available
 
       - name: "Bangus, Fresh"
         price: "₱110/kg"
         image: "/images/FA-Bangus-Fresh.jpg"
+        available: true   # <-- mark as not available
 
       - name: "Bangus, Frozen"
         price: "₱140/kg"
         image: "/images/FA-Bangus-Frozen.jpg"
+        available: true   # <-- mark as not available
 
       - name: "Bangus, Marinated"
         price: "₱155/kg"
         image: "/images/FA-Bangus-Marinated.jpg"
+        available: true   # <-- mark as not available
 
       - name: "Bangus, Marinated, Boneless"
         price: "₱160/kg"
         image: "/images/FA-Bangus-Marinated-BL.jpg"
+        available: true   # <-- mark as not available
 
       - name: "Catfish, Hito, Live"
         price: "₱120/kg"
         image: "/images/FA-Catfish-Live.jpg"
+        available: true   # <-- mark as not available
 
       - name: "Catfish, Hito, Fresh"
         price: "₱110/kg"
         image: "/images/FA-Catfish-Fresh.jpg"
+        available: true   # <-- mark as not available
 
       - name: "Catfish, Hito, Frozen"
         price: "₱140/kg"
         image: "/images/FA-Catfish-Frozen.jpg"
+        available: true   # <-- mark as not available
 
       - name: "Snail, Feeds"
         price: "₱120/kg"
         image: "/images/FA-Snail-Feeds.jpg"
+        available: true   # <-- mark as not available
 
       - name: "Snail, Fresh"
         price: "₱110/kg"
         image: "/images/FA-Snail-Fresh.jpg"
+        available: true   # <-- mark as not available
 
       - name: "Snail, Frozen"
         price: "₱140/kg"
         image: "/images/FA-Snail-Frozen.jpg"
+        available: true   # <-- mark as not available
 
   - name: "Processed Foods"
     id: "processed"
@@ -184,14 +223,77 @@ categories:
       - name: "Cat Food, Bottled"
         price: "₱100/bottle"
         image: "/images/PF-CatFood-Bottled.jpg"
+        available: true   # <-- mark as not available
 
       - name: "Cat Food, Canned"
         price: "₱100/can"
         image: "/images/PF-CatFood-Canned.jpg"
+        available: true   # <-- mark as not available
 
       - name: "Cat Food, Bag"
-        price: "₱50/bag"
+        price: "₱50/pack"
         image: "/images/PF-CatFood-Bag.jpg"
+        available: true   # <-- mark as not available
+
+      - name: "Tomatoes, Bottled"
+        price: "₱100/bottle"
+        image: "/images/PF-Tomatoes-Bottled.jpg"
+        available: true   # <-- mark as not available
+
+      - name: "Tomatoes, Canned"
+        price: "₱100/can"
+        image: "/images/PF-Tomatoes-Canned.jpg"
+        available: true   # <-- mark as not available
+
+      - name: "Tomatoes, Dried"
+        price: "₱50/pack"
+        image: "/images/PF-Tomatoes-Dried.jpg"
+        available: true   # <-- mark as not available
+
+      - name: "Chilli, Bottled"
+        price: "₱100/bottle"
+        image: "/images/PF-Chilli-Bottled.jpg"
+        available: true   # <-- mark as not available
+
+      - name: "Chilli, Canned"
+        price: "₱100/can"
+        image: "/images/PF-Chilli-Canned.jpg"
+        available: true   # <-- mark as not available
+
+      - name: "Chilli, Dried"
+        price: "₱50/pack"
+        image: "/images/PF-Chilli-Dried.jpg"
+        available: true   # <-- mark as not available
+
+      - name: "Embotido"
+        price: "₱200/pack"
+        image: "/images/PF-Homemade-Embotido.jpg"
+        available: true   # <-- mark as not available
+
+      - name: "Burong Kapampangan"
+        price: "₱200/pack"
+        image: "/images/PF-Homemade-Embotido.jpg"
+        available: true   # <-- mark as not available
+
+      - name: "Keropok Lekor (frozen)"
+        price: "₱100/pack"
+        image: "/images/PF-Homemade-Lekor.jpg"
+        available: true   # <-- mark as not available
+
+      - name: "Keropok Kering"
+        price: "₱100/pack"
+        image: "/images/PF-Homemade-Kropok.jpg"
+        available: true   # <-- mark as not available
+
+      - name: "Mushroom Chips"
+        price: "₱200/pack"
+        image: "/images/PF-Homemade-Chips-Mush.jpg"
+        available: true   # <-- mark as not available
+
+      - name: "Mushroom Chips, Salted Eggs"
+        price: "₱200/pack"
+        image: "/images/PF-Homemade-Chips-Mush-Salted.jpg"
+        available: true   # <-- mark as not available
 
   - name: "Livestocks & Poultry"
     id: "livestocks"
@@ -199,26 +301,128 @@ categories:
       - name: "Ducklings (<1 week)"
         price: "₱25/chick"
         image: "/images/LP-Duck-Duckling.jpg"
+        available: true   # <-- mark as not available
 
       - name: "Ducks, Layers"
         price: "₱75/chick"
         image: "/images/LP-Duck-Layer.jpg"
+        available: true   # <-- mark as not available
 
       - name: "Ducks, Cull"
         price: "₱100/chick"
         image: "/images/LP-Duck-Cull.jpg"
+        available: true   # <-- mark as not available
 
   - name: "Training Courses - Online"
     id: "coursesonline"
     products:
       - name: " Duck Growing"
-        price: "₱500/day"
+        price: "₱1,000/day"
         image: "/images/TCO-Duck.jpg"
+        available: true   # <-- mark as not available
 
       - name: "Mushroom Farming"
-        price: "₱500/day"
+        price: "₱1,000/day"
         image: "/images/TCO-Mushroom.jpg"
+        available: true   # <-- mark as not available
 
       - name: "Composting"
-        price: "₱500/day"
+        price: "₱1,000/day"
         image: "/images/TCO-Compost.jpg"
+        available: true   # <-- mark as not available
+
+      - name: "Goat Farming"
+        price: "₱1,000/day"
+        image: "/images/TCO-Goat.jpg"
+        available: true   # <-- mark as not available
+
+      - name: "Aquaponics"
+        price: "₱1,000/day"
+        image: "/images/TCO-Aqua.jpg"
+        available: true   # <-- mark as not available
+
+      - name: "Silage Making"
+        price: "₱1,000/day"
+        image: "/images/TCO-Silage.jpg"
+        available: true   # <-- mark as not available
+
+      - name: "DIY Steamer"
+        price: "₱1,000/day"
+        image: "/images/TCO-Steamer.jpg"
+        available: true   # <-- mark as not available
+
+  - name: "Training Courses - On-Site"
+    id: "coursesonsite"
+    products:
+      - name: " Duck Growing"
+        price: "₱1,500/day"
+        image: "/images/TC-Duck.jpg"
+        available: true   # <-- mark as not available
+
+      - name: "Mushroom Farming"
+        price: "₱1,500/day"
+        image: "/images/TC-Mushroom.jpg"
+        available: true   # <-- mark as not available
+
+      - name: "Composting"
+        price: "₱1,500/day"
+        image: "/images/TC-Compost.jpg"
+        available: true   # <-- mark as not available
+
+      - name: "Goat Farming"
+        price: "₱1,500/day"
+        image: "/images/TC-Goat.jpg"
+        available: true   # <-- mark as not available
+
+      - name: "Aquaponics"
+        price: "₱1,500/day"
+        image: "/images/TC-Aqua.jpg"
+        available: true   # <-- mark as not available
+
+      - name: "Silage Making"
+        price: "₱1,500/day"
+        image: "/images/TC-Silage.jpg"
+        available: true   # <-- mark as not available
+
+      - name: "DIY Steamer"
+        price: "₱1,500/day"
+        image: "/images/TC-Steamer.jpg"
+        available: true   # <-- mark as not available
+
+  - name: "Training Literatures"
+    id: "coursesliteratures"
+    products:
+      - name: " Duck Growing"
+        price: "₱500/book"
+        image: "/images/TL-Duck.jpg"
+        available: true   # <-- mark as not available
+
+      - name: "Mushroom Farming"
+        price: "₱500/book"
+        image: "/images/TL-Mushroom.jpg"
+        available: true   # <-- mark as not available
+
+      - name: "Composting"
+        price: "₱500/book"
+        image: "/images/TL-Compost.jpg"
+        available: true   # <-- mark as not available
+
+      - name: "Goat Farming"
+        price: "₱500/day"
+        image: "/images/TL-Goat.jpg"
+        available: true   # <-- mark as not available
+
+      - name: "Aquaponics"
+        price: "₱500/day"
+        image: "/images/TL-Aqua.jpg"
+        available: true   # <-- mark as not available
+
+      - name: "Silage Making"
+        price: "₱500/day"
+        image: "/images/TL-Silage.jpg"
+        available: true   # <-- mark as not available
+
+      - name: "DIY Steamer"
+        price: "₱500/day"
+        image: "/images/TL-Steamer.jpg"
+        available: true   # <-- mark as not available
