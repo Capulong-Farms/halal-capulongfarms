@@ -52,6 +52,11 @@ body {
     display: flex;
     list-style: none;
     gap: 2rem;
+    position: relative;
+}
+
+.main-nav ul li {
+    position: relative;
 }
 
 .main-nav a {
@@ -79,45 +84,16 @@ body {
 }
 
 /* ===== Active Nav Link Highlight ===== */
-.main-nav ul li a {
-    color: var(--text-dark);
-    text-decoration: none;
-    padding: 0.5rem 1rem;
-    border-radius: 5px;
-    transition: color 0.3s, background-color 0.3s;
-}
-
 .main-nav ul li a.active {
     background-color: var(--primary-color);
     color: var(--white);
-}
-
-/* ===== Animated Tab-Style Nav Underline ===== */
-.main-nav ul {
-    position: relative;
-}
-
-.main-nav ul li {
-    position: relative;
-}
-
-.main-nav ul li a {
-    color: var(--text-dark);
-    text-decoration: none;
-    padding: 0.5rem 1rem;
-    font-weight: 500;
-    transition: color 0.3s;
-}
-
-.main-nav ul li a.active {
-    color: var(--primary-color);
 }
 
 .main-nav ul li a::after {
     content: '';
     position: absolute;
     left: 0;
-    bottom: -3px;   /* distance below the link text */
+    bottom: -3px;
     width: 0%;
     height: 3px;
     background-color: var(--primary-color);
@@ -192,7 +168,9 @@ body {
     box-shadow: 0 6px 12px rgba(0,0,0,0.15);
 }
 
-.product-image {
+/* Product Image with Watermark */
+.product-card .product-image {
+    position: relative;       /* crucial for watermark overlay */
     width: 100%;
     height: 200px;
     background: var(--bg-light);
@@ -202,10 +180,24 @@ body {
     overflow: hidden;
 }
 
-.product-image img {
+.product-card .product-image img {
     width: 100%;
     height: 100%;
     object-fit: cover;
+}
+
+.product-card .product-image .watermark {
+    position: absolute;       /* overlay on top of image */
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(-25deg);
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: rgba(255, 255, 255, 0.9);
+    text-shadow: 2px 2px 6px rgba(0,0,0,0.5);
+    pointer-events: none;
+    white-space: nowrap;
+    z-index: 10;              /* ensure above image */
 }
 
 .product-card h4 {
@@ -221,41 +213,16 @@ body {
     font-weight: bold;
 }
 
-/* Watermark for unavailable products */
-.product-card .product-image {
-    position: relative;   /* <-- add this */
-    width: 100%;
-    height: 200px;        /* keep your current height */
-    background: var(--bg-light);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    overflow: hidden;
-}
-
-.product-card .watermark {
-    position: absolute;      /* <-- crucial to overlay */
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%) rotate(-25deg);
-    font-size: 1.5rem;
-    font-weight: bold;
-    color: rgba(255, 255, 255, 0.9);
-    text-shadow: 2px 2px 6px rgba(0,0,0,0.5);
-    pointer-events: none;
-    white-space: nowrap;
-}
-
 /* About Section */
 .about-section {
     padding: 4rem 0;
-    background: var(--white);
+    background: var(--primary-color);  /* merged Hero+About now green */
+    color: var(--white);
 }
 
 .about-section h2 {
     text-align: center;
     font-size: 2.5rem;
-    color: var(--primary-color);
     margin-bottom: 3rem;
 }
 
@@ -283,8 +250,8 @@ body {
 .about-text p {
     margin-bottom: 1rem;
     font-size: 1.1rem;
-    color: var(--text-light);
     line-height: 1.8;
+    color: var(--white); /* force white text on green background */
 }
 
 /* Contact Section */
