@@ -291,26 +291,188 @@ categories:
         available: true   # <-- mark as not available
 
       - name: "Mushroom Chips, Salted Eggs"
-        price: "₱200/pack"
+        price: "₱300/pack"
         image: "/images/PF-Homemade-Chips-Mush-Salted.jpg"
         available: true   # <-- mark as not available
 
   - name: "Livestocks & Poultry"
     id: "livestocks"
     products:
-      - name: "Ducklings (<1 week)"
+      - name: "Ducklings (<3 days)"
         price: "₱25/chick"
-        image: "/images/LP-Duck-Duckling.jpg"
+        image: "/images/LP-Duck-Duckling1.jpg"
+        available: true   # <-- mark as not available
+
+      - name: "Ducklings (<2 weeks)"
+        price: "₱75/chick"
+        image: "/images/LP-Duck-Duckling2.jpg"
         available: true   # <-- mark as not available
 
       - name: "Ducks, Layers"
-        price: "₱75/chick"
+        price: "₱225/chick"
         image: "/images/LP-Duck-Layer.jpg"
         available: true   # <-- mark as not available
 
       - name: "Ducks, Cull"
-        price: "₱100/chick"
+        price: "₱120/chick"
         image: "/images/LP-Duck-Cull.jpg"
+        available: true   # <-- mark as not available
+
+      - name: "Ducks, Fresh Eggs, Small"
+        price: "₱---/tray"
+        image: "/images/LP-Duck-EggFreshS.jpg"
+        available: true   # <-- mark as not available
+
+
+      - name: "Ducks, Fresh Eggs, Medium"
+        price: "₱---/tray"
+        image: "/images/LP-Duck-EggFreshM.jpg"
+        available: true   # <-- mark as not available
+
+      - name: "Ducks, Fresh Eggs, Large"
+        price: "₱---/tray"
+        image: "/images/LP-Duck-EggFreshL.jpg"
+        available: true   # <-- mark as not available
+
+      - name: "Ducks, Salted Eggs "
+        price: "₱15/pc"
+        image: "/images/LP-Duck-EggSalted.jpg"
+        available: true   # <-- mark as not available
+
+      - name: "Ducks, Balut"
+        price: "₱15/pc"
+        image: "/images/LP-Duck-EggBalut.jpg"
+        available: true   # <-- mark as not available
+
+      - name: "Ducks, Penoy"
+        price: "₱10/pc"
+        image: "/images/LP-Duck-EggPenoy.jpg"
+        available: true   # <-- mark as not available
+
+      - name: "Ducks, Abnoy"
+        price: "₱5/pc"
+        image: "/images/LP-Duck-EggAbnoy.jpg"
+        available: true   # <-- mark as not available
+
+      - name: "Ducks, Fresh Meat, Halal"
+        price: "₱75/kg"
+        image: "/images/LP-Duck-MeatFresh.jpg"
+        available: true   # <-- mark as not available
+
+      - name: "Ducks, Frozen Meat, Halal"
+        price: "₱90/kg"
+        image: "/images/LP-Duck-MeatFrozen.jpg"
+        available: true   # <-- mark as not available
+
+      - name: "Soho (<3 days)"
+        price: "₱15/chick"
+        image: "/images/LP-Chick-Soho1.jpg"
+        available: true   # <-- mark as not available
+
+      - name: "Soho (<2 weeks)"
+        price: "₱50/chick"
+        image: "/images/LP-Chick-Soho2.jpg"
+        available: true   # <-- mark as not available
+
+      - name: "Chicken, Layers"
+        price: "₱150/chick"
+        image: "/images/LP-Chick-Layer.jpg"
+        available: true   # <-- mark as not available
+
+      - name: "Chicken, Cull"
+        price: "₱80/chick"
+        image: "/images/LP-Chick-Cull.jpg"
+        available: true   # <-- mark as not available
+
+      - name: "Chicken, Fresh Eggs, Small"
+        price: "₱---/tray"
+        image: "/images/LP- Chick-EggFreshS.jpg"
+        available: true   # <-- mark as not available
+
+
+      - name: "Chicken, Fresh Eggs, Medium"
+        price: "₱---/tray "
+        image: "/images/LP-Chick-EggFreshM.jpg"
+        available: true   # <-- mark as not available
+
+      - name: "Chicken, Fresh Eggs, Large"
+        price: "₱---/tray"
+        image: "/images/LP-Chick-EggFreshL.jpg"
+        available: true   # <-- mark as not available
+
+      - name: "Chicken, Kwek"
+        price: "₱10/pc"
+        image: "/images/LP-Chick-EggKewk.jpg"
+        available: true   # <-- mark as not available
+
+      - name: "Chicken, Abnoy"
+        price: "₱5/pc"
+        image: "/images/LP-Chick-EggAbnoy.jpg"
+        available: true   # <-- mark as not available
+
+      - name: "Chicken, Fresh Meat, Halal"
+        price: "₱75/kg"
+        image: "/images/LP-Chick-MeatFresh.jpg"
+        available: true   # <-- mark as not available
+
+      - name: "Chicken, Frozen Meat, Halal"
+        price: "₱90/kg"
+        image: "/images/LP-Chick-MeatFrozen.jpg"
+        available: true   # <-- mark as not available
+
+      - name: "Goats, Doeling (<1 year)"
+        price: "₱___/pc"
+        image: "/images/LP-Goat-Doeling.jpg"
+        available: true   # <-- mark as not available
+
+      - name: "Goats, Buckling (<1 year)"
+        price: "₱___/pc"
+        image: "/images/LP-Goat-Buckling.jpg"
+        available: true   # <-- mark as not available
+
+      - name: "Goats, Doe (1-5 years)"
+        price: "₱___/pc"
+        image: "/images/LP-Goat-Doe.jpg"
+        available: true   # <-- mark as not available
+
+      - name: "Goats, Buck (1-5 years)"
+        price: "₱___/pc"
+        image: "/images/LP-Goat-Buck.jpg"
+        available: true   # <-- mark as not available
+
+      - name: "Goats, Old Doe (>5 years)"
+        price: "₱___/pc"
+        image: "/images/LP-Goat-DoeOld.jpg"
+        available: true   # <-- mark as not available
+
+      - name: "Goats, Old Buck (>5 years)"
+        price: "₱___/pc"
+        image: "/images/LP-Goat-BuckOld.jpg"
+        available: true   # <-- mark as not available
+
+      - name: "Goats, Bulog"
+        price: "₱___/pc"
+        image: "/images/LP-Goat-Bulog.jpg"
+        available: true   # <-- mark as not available
+
+      - name: "Goat, Fresh Meat, Halal"
+        price: "₱100/kg"
+        image: "/images/LP-Goat-MeatFresh.jpg"
+        available: true   # <-- mark as not available
+
+      - name: "Goat, Frozen Meat, Halal"
+        price: "₱120/kg"
+        image: "/images/LP-Goat-MeatFrozen.jpg"
+        available: true   # <-- mark as not available
+
+      - name: "Goat, Fresh Milk"
+        price: "₱50/bottle"
+        image: "/images/LP-Goat-Milk.jpg"
+        available: true   # <-- mark as not available
+
+      - name: "Buffalo, Fresh Milk"
+        price: "₱50/bottle"
+        image: "/images/LP-Bufallo-Milk.jpg"
         available: true   # <-- mark as not available
 
   - name: "Training Courses - Online"
