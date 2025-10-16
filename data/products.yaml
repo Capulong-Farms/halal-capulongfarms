@@ -10,15 +10,15 @@ categories:
 
       - name: "Sweet Corn, Grade B"
         price: "₱10/pc"
-        image: "/images/products/FP-Corn-Grade B.jpg"
+        image: "/images/FP-Corn-Grade B.jpg"
 
       - name: "Sweet Corn, Grade C"
         price: "₱8/pc"
-        image: "/images/products/FP-Corn-Grade C.jpg"
+        image: "/images/FP-Corn-Grade C.jpg"
 
       - name: "Sweet Corn, Reject"
         price: "₱5/pc"
-        image: "/images/products/FP-Corn-Reject.jpg"
+        image: "/images/FP-Corn-Reject.jpg"
 
       - name: "Sweet Corn, Bagaso"
         price: "₱500/ton"
@@ -27,75 +27,75 @@ categories:
         
       - name: "Tomatoes, Kamatis"
         price: "₱75/kg"
-        image: "/images/products/FP-Tomatoes.jpg"
+        image: "/images/FP-Tomatoes.jpg"
         
       - name: "Eggplants, Talong"
         price: "₱50/kg"
-        image: "/images/products/FP-Eggplant.jpg"
+        image: "/images/FP-Eggplant.jpg"
 
       - name: "Lady Finger, Okra"
         price: "₱40/kg"
-        image: "/images/products/FP-LadyFinger.jpg"
+        image: "/images/FP-LadyFinger.jpg"
 
       - name: "Bitter Gourd, Amplalaya"
         price: "₱50/kg"
-        image: "/images/products/FP-BitterGourd.jpg"
+        image: "/images/FP-BitterGourd.jpg"
 
       - name: "Bottle Gourd, Upo"
         price: "₱25/kg"
-        image: "/images/products/FP-BottleGourd.jpg"
+        image: "/images/FP-BottleGourd.jpg"
 
       - name: "Long Beans, Sitaw"
         price: "₱50/kg"
-        image: "/images/products/FP-LongBean.jpg"
+        image: "/images/FP-LongBean.jpg"
 
       - name: "Green Papaya, Small"
         price: "₱25/kg"
-        image: "/images/products/FP-Papaya-GreenS.jpg"
+        image: "/images/FP-Papaya-GreenS.jpg"
 
       - name: "Green Papaya, Medium"
         price: "₱30/kg"
-        image: "/images/products/FP-Papaya-GreenM.jpg"
+        image: "/images/FP-Papaya-GreenM.jpg"
 
       - name: "Green Papaya, Large"
         price: "₱35/kg"
-        image: "/images/products/FP-Papaya-GreenL.jpg"
+        image: "/images/FP-Papaya-GreenL.jpg"
 
       - name: "Ripe Papaya, Small"
         price: "₱25/kg"
-        image: "/images/products/FP-Papaya-RipeS.jpg"
+        image: "/images/FP-Papaya-RipeS.jpg"
 
       - name: "Ripe Papaya, Medium"
         price: "₱30/kg"
-        image: "/images/products/FP-Papaya-RipeM.jpg"
+        image: "/images/FP-Papaya-RipeM.jpg"
 
       - name: "Ripe Papaya, Large"
         price: "₱35/kg"
-        image: "/images/products/FP-Papaya-RipeL.jpg"
+        image: "/images/FP-Papaya-RipeL.jpg"
 
       - name: "Palay, wet, 50kg"
         price: "₱17/kg"
-        image: "/images/products/FP-Palay-50-wet.jpg"
+        image: "/images/FP-Palay-50-wet.jpg"
 
       - name: "Palay, dry, 50kg"
         price: "₱21/kg"
-        image: "/images/products/FP-Palay-50-dry.jpg"
+        image: "/images/FP-Palay-50-dry.jpg"
 
       - name: "Rice, Bigas 25kg"
         price: "₱30/kg"
-        image: "/images/products/FP-Rice-25.jpg"
+        image: "/images/FP-Rice-25.jpg"
 
       - name: "Rice, Glutinous, Malagkit, 25kg"
         price: "₱35/kg"
-        image: "/images/products/FP-Rice-25-glutinous.jpg"
+        image: "/images/FP-Rice-25-glutinous.jpg"
 
       - name: "Compost Bags, 25kg"
         price: "₱10/kg"
-        image: "/images/products/PF-Compost-25.jpg"
+        image: "/images/PF-Compost-25.jpg"
 
       - name: "Compost Bags, 50kg"
         price: "₱10/kg"
-        image: "/images/products/PF-Compost-50.jpg"
+        image: "/images/PF-Compost-50.jpg"
 
       - name: "Silage, drum"
         price: "₱900/drum"
@@ -112,98 +112,113 @@ categories:
     products:
       - name: "Tilapia, Live"
         price: "₱100/kg"
-        image: "/images/products/FA-Tilapia-Live.jpg"
+        image: "/images/FA-Tilapia-Live.jpg"
 
       - name: "Tilapia, Fresh"
         price: "₱90/kg"
-        image: "/images/products/FA-Tilapia-Fresh.jpg"
+        image: "/images/FA-Tilapia-Fresh.jpg"
 
       - name: "Tilapia, Frozen"
         price: "₱120/kg"
-        image: "/images/products/FA-TilapiaFrozen.jpg"
+        image: "/images/FA-TilapiaFrozen.jpg"
 
       - name: "Tilapia, Daing Kapampangan (Dried)"
         price: "₱125/kg"
-        image: "/images/products/FA-Tilapia-Daing.jpg"
+        image: "/images/FA-Tilapia-Daing.jpg"
 
       - name: "Tilapia, Marinated"
         price: "₱125/kg"
-        image: "/images/products/FA-Tilapia-Marinated.jpg"
+        image: "/images/FA-Tilapia-Marinated.jpg"
 
       - name: "Tilapia, Marinated, Boneless"
         price: "₱130/kg"
-        image: "/images/products/FA-Tilapia-Marinated-BL.jpg"
+        image: "/images/FA-Tilapia-Marinated-BL.jpg"
 
       - name: "Bangus, Live"
         price: "₱120/kg"
-        image: "/images/products/FA-Bangus-Live.jpg"
+        image: "/images/FA-Bangus-Live.jpg"
 
       - name: "Bangus, Fresh"
         price: "₱110/kg"
-        image: "/images/products/FA-Bangus-Fresh.jpg"
+        image: "/images/FA-Bangus-Fresh.jpg"
 
       - name: "Bangus, Frozen"
         price: "₱140/kg"
-        image: "/images/products/FA-Bangus-Frozen.jpg"
+        image: "/images/FA-Bangus-Frozen.jpg"
 
       - name: "Bangus, Marinated"
         price: "₱155/kg"
-        image: "/images/products/FA-Bangus-Marinated.jpg"
+        image: "/images/FA-Bangus-Marinated.jpg"
 
       - name: "Bangus, Marinated, Boneless"
         price: "₱160/kg"
-        image: "/images/products/FA-Bangus-Marinated-BL.jpg"
+        image: "/images/FA-Bangus-Marinated-BL.jpg"
 
       - name: "Catfish, Hito, Live"
         price: "₱120/kg"
-        image: "/images/products/FA-Catfish-Live.jpg"
+        image: "/images/FA-Catfish-Live.jpg"
 
       - name: "Catfish, Hito, Fresh"
         price: "₱110/kg"
-        image: "/images/products/FA-Catfish-Fresh.jpg"
+        image: "/images/FA-Catfish-Fresh.jpg"
 
       - name: "Catfish, Hito, Frozen"
         price: "₱140/kg"
-        image: "/images/products/FA-Catfish-Frozen.jpg"
+        image: "/images/FA-Catfish-Frozen.jpg"
 
       - name: "Snail, Feeds"
         price: "₱120/kg"
-        image: "/images/products/FA-Snail-Feeds.jpg"
+        image: "/images/FA-Snail-Feeds.jpg"
 
       - name: "Snail, Fresh"
         price: "₱110/kg"
-        image: "/images/products/FA-Snail-Fresh.jpg"
+        image: "/images/FA-Snail-Fresh.jpg"
 
       - name: "Snail, Frozen"
         price: "₱140/kg"
-        image: "/images/products/FA-Snail-Frozen.jpg"
+        image: "/images/FA-Snail-Frozen.jpg"
 
   - name: "Processed Foods"
     id: "processed"
     products:
       - name: "Cat Food, Bottled"
         price: "₱100/bottle"
-        image: "/images/products/PF-CatFood-Bottled.jpg"
+        image: "/images/PF-CatFood-Bottled.jpg"
 
       - name: "Cat Food, Canned"
         price: "₱100/can"
-        image: "/images/products/PF-CatFood-Canned.jpg"
+        image: "/images/PF-CatFood-Canned.jpg"
 
       - name: "Cat Food, Bag"
         price: "₱50/bag"
-        image: "/images/products/PF-CatFood-Bag.jpg"
+        image: "/images/PF-CatFood-Bag.jpg"
 
   - name: "Livestocks & Poultry"
     id: "livestocks"
     products:
       - name: "Ducklings (<1 week)"
         price: "₱25/chick"
-        image: "/images/products/LP-Duck-Duckling.jpg"
+        image: "/images/LP-Duck-Duckling.jpg"
 
       - name: "Ducks, Layers"
         price: "₱75/chick"
-        image: "/images/products/LP-Duck-Layer.jpg"
+        image: "/images/LP-Duck-Layer.jpg"
 
       - name: "Ducks, Cull"
         price: "₱100/chick"
-        image: "/images/products/LP-Duck-Cull.jpg"
+        image: "/images/LP-Duck-Cull.jpg"
+
+  - name: "Training Courses - Online"
+    id: "coursesonline"
+    products:
+      - name: " Duck Growing"
+        price: "₱500/day"
+        image: "/images/TCO-Duck.jpg"
+
+      - name: "Mushroom Farming"
+        price: "₱500/day"
+        image: "/images/TCO-Mushroom.jpg"
+
+      - name: "Composting"
+        price: "₱500/day"
+        image: "/images/TCO-Compost.jpg"
