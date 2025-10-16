@@ -1,24 +1,26 @@
 {{ define "main" }}
 
 <!-- 🏡 Home Section (Merged Hero + About) -->
-<section id="home" class="hero about-section">
-    <div class="container">
-        <div class="hero-content">
-            <h1>Welcome to Capulong Farms</h1>
-            <p>Fresh produce and farm supplies delivered from our farm to your table</p>
-        </div>
-
-        <div class="about-content">
-            <div class="about-image">
-                <img src="/images/farm-photo.jpg" alt="Capulong Farms">
-            </div>
-            <div class="about-text">
-                <p>Capulong Farms is a family-owned farm in the Philippines dedicated to providing fresh, quality produce and farm supplies directly to consumers.</p>
-                <p>We believe in sustainable farming practices and delivering the freshest products from our farm to your table.</p>
-                <p>Our commitment is to quality, freshness, and supporting local agriculture.</p>
-            </div>
-        </div>
+<section id="home" class="hero">
+  <div class="container">
+    <!-- Original Hero -->
+    <div class="hero-content">
+      <h1>Welcome to Capulong Farms</h1>
+      <p>Fresh produce and farm supplies delivered from our farm to your table</p>
     </div>
+
+    <!-- About Content (moved under Hero but styled separately) -->
+    <div class="about-content" style="margin-top: 3rem;">
+      <div class="about-image">
+        <img src="/images/farm-photo.jpg" alt="Capulong Farms">
+      </div>
+      <div class="about-text">
+        <p>Capulong Farms is a family-owned farm in the Philippines dedicated to providing fresh, quality produce and farm supplies directly to consumers.</p>
+        <p>We believe in sustainable farming practices and delivering the freshest products from our farm to your table.</p>
+        <p>Our commitment is to quality, freshness, and supporting local agriculture.</p>
+      </div>
+    </div>
+  </div>
 </section>
 
 <!-- 💳 Buy & Pay Section -->
