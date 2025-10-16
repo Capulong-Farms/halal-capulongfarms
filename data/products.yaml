@@ -4,7 +4,7 @@ categories:
     products:
       - name: "Sweet Corn, Grade A"
         price: "₱12/pc"
-        image: "/images/products/FP-Corn-Grade A.jpg"
+        image: "/images/FP-Corn-Grade A.jpg"
         # Alternative: use external URL
         # image: "https://example.com/path/to/image.jpg"
 
