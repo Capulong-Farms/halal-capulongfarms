@@ -1,19 +1,30 @@
 {{ define "main" }}
 
-<!-- Hero Section -->
-<section class="hero">
+<!-- 🏡 Home Section (Merged Hero + About) -->
+<section id="home" class="hero about-section">
     <div class="container">
         <div class="hero-content">
             <h1>Welcome to Capulong Farms</h1>
             <p>Fresh produce and farm supplies delivered from our farm to your table</p>
         </div>
+
+        <div class="about-content">
+            <div class="about-image">
+                <img src="/images/farm-photo.jpg" alt="Capulong Farms">
+            </div>
+            <div class="about-text">
+                <p>Capulong Farms is a family-owned farm in the Philippines dedicated to providing fresh, quality produce and farm supplies directly to consumers.</p>
+                <p>We believe in sustainable farming practices and delivering the freshest products from our farm to your table.</p>
+                <p>Our commitment is to quality, freshness, and supporting local agriculture.</p>
+            </div>
+        </div>
     </div>
 </section>
 
-<!-- Contact & Payment Section -->
+<!-- 💳 Buy & Pay Section -->
 <section id="order" class="contact-section">
     <div class="container">
-        <h2>Order & Payment</h2>
+        <h2>Buy & Pay</h2>
         <div class="contact-grid">
             <div class="contact-info">
                 <h3>How to Order</h3>
@@ -27,25 +38,14 @@
                 <h3>Payment via GCash</h3>
                 <p>Scan the QR code below to pay via GCash:</p>
                 <div class="gcash-qr">
-                    <img src="{{ .Site.Params.gcash_qr_image }}" alt="GCash QR Code" style="width: 75%; height: auto;">
+                    <img src="{{ .Site.Params.gcash_qr_image }}" alt="GCash QR Code" style="width: 50%; height: auto;">
                 </div>
             </div>
         </div>
     </div>
 </section>
 
-<!-- 🟦 Added this style after the QR code section to resize white border around around the image -->
-<style>
-.gcash-qr {
-    display: inline-block;   /* container shrinks to the image width */
-    background: white;       /* keeps white background */
-    padding: 0.25rem;        /* optional small padding around image */
-    border-radius: 8px;      /* optional rounded corners */
-    text-align: center;      /* center image inside container */
-}
-</style>
-
-<!-- ✅ UPDATED Products Section with Tabs -->
+<!-- 🧺 Products Section with Tabs -->
 <section id="products" class="products-section">
     <div class="container">
         <h2>Our Products & Prices</h2>
@@ -83,11 +83,8 @@
 
             tabs.forEach(tab => {
                 tab.addEventListener("click", () => {
-                    // Deactivate all
                     tabs.forEach(t => t.classList.remove("active"));
                     contents.forEach(c => c.classList.remove("active"));
-
-                    // Activate selected
                     tab.classList.add("active");
                     document.getElementById(tab.dataset.tab).classList.add("active");
                 });
@@ -118,7 +115,6 @@
         .tab-content { display: none; }
         .tab-content.active { display: block; }
 
-        /* Optional: Keep your product card layout responsive */
         .products-grid {
             display: grid;
             grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
@@ -140,25 +136,16 @@
             font-weight: bold;
             color: #2c7a2c;
         }
-    </style>
-</section>
-<!-- ✅ END of Updated Products Section -->
 
-<!-- About Section -->
-<section id="about" class="about-section">
-    <div class="container">
-        <h2>About Capulong Farms</h2>
-        <div class="about-content">
-            <div class="about-image">
-                <img src="/images/farm-photo.jpg" alt="Capulong Farms">
-            </div>
-            <div class="about-text">
-                <p>Capulong Farms is a family-owned farm in the Philippines dedicated to providing fresh, quality produce and farm supplies directly to consumers.</p>
-                <p>We believe in sustainable farming practices and delivering the freshest products from our farm to your table.</p>
-                <p>Our commitment is to quality, freshness, and supporting local agriculture.</p>
-            </div>
-        </div>
-    </div>
+        /* GCash QR fix */
+        .gcash-qr {
+            display: inline-block;
+            background: white;
+            padding: 0.25rem;
+            border-radius: 8px;
+            text-align: center;
+        }
+    </style>
 </section>
 
 {{ end }}
