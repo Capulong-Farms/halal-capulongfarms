@@ -14,6 +14,52 @@
     <meta property="og:type" content="website">
     <meta property="og:locale" content="en_PH">
     <meta name="robots" content="index, follow" />
+
+    <script type="application/ld+json">
+        {
+          "@context": "https://schema.org",
+          "@type": "Farm",
+          "@id": "https://capulongfarms.org/",
+          "name": "Capulong Farms",
+          "url": "https://capulongfarms.org",
+          "image": "https://capulongfarms.org/images/farm-photo.jpg",
+          "logo": "https://capulongfarms.org/images/logo.png",
+          "description": "Family-owned farm in Lanang, Candaba, Pampanga offering fresh farm produce, livestock, and hands-on agricultural training.",
+          "telephone": "+63 9XX XXX XXXX",
+          "priceRange": "₱₱",
+          "email": "leopoldo@capulongfarms.org",
+          "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "Lanang, Candaba",
+            "addressLocality": "Candaba",
+            "addressRegion": "Pampanga",
+            "postalCode": "2010",
+            "addressCountry": "PH"
+          },
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 15.093,       // replace with your exact coords
+            "longitude": 120.828
+          },
+          "hasMap": "https://maps.google.com/?q=Capulong+Farms+Lanang+Candaba",
+          "openingHoursSpecification": [{
+            "@type": "OpeningHoursSpecification",
+            "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"],
+            "opens": "08:00",
+            "closes": "17:00"
+          }],
+          "sameAs": [
+            "https://www.facebook.com/YourPage",
+            "https://www.instagram.com/YourPage"
+          ],
+          "areaServed": "Pampanga, Philippines",
+          "founder": {
+            "@type": "Person",
+            "name": "Capulong Family"
+          }
+        }
+        </script>
+
     
     <title>{{ block "title" . }}{{ .Site.Title }}{{ end }}</title>
     <link rel="stylesheet" href="{{ "css/style.css" | relURL }}">
