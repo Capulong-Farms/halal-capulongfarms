@@ -370,22 +370,22 @@ categories:
         available: true   # <-- mark as not available
 
       - name: "Goat Farming"
-        price: "₱1,000/day"
+        price: "₱1,500/day"
         image: "/images/TC-Goat.jpg"
         available: true   # <-- mark as not available
 
       - name: "Aquaponics"
-        price: "₱1,000/day"
+        price: "₱1,500/day"
         image: "/images/TC-Aqua.jpg"
         available: true   # <-- mark as not available
 
       - name: "Silage Making"
-        price: "₱1,000/day"
+        price: "₱1,500/day"
         image: "/images/TC-Silage.jpg"
         available: true   # <-- mark as not available
 
       - name: "DIY Steamer"
-        price: "₱1,000/day"
+        price: "₱1,500/day"
         image: "/images/TC-Steamer.jpg"
         available: true   # <-- mark as not available
 
@@ -408,21 +408,21 @@ categories:
         available: true   # <-- mark as not available
 
       - name: "Goat Farming"
-        price: "₱1,000/day"
+        price: "₱500/day"
         image: "/images/TL-Goat.jpg"
         available: true   # <-- mark as not available
 
       - name: "Aquaponics"
-        price: "₱1,000/day"
+        price: "₱500/day"
         image: "/images/TL-Aqua.jpg"
         available: true   # <-- mark as not available
 
       - name: "Silage Making"
-        price: "₱1,000/day"
+        price: "₱500/day"
         image: "/images/TL-Silage.jpg"
         available: true   # <-- mark as not available
 
       - name: "DIY Steamer"
-        price: "₱1,000/day"
+        price: "₱500/day"
         image: "/images/TL-Steamer.jpg"
         available: true   # <-- mark as not available
