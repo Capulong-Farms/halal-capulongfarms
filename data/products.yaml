@@ -23,12 +23,12 @@ categories:
       - name: "Sweet Corn, Bagaso"
         price: "₱500/ton"
         image: "/images/products/FP-Corn-Hush.jpg"
-
+        available: false   # <-- mark as not available
+        
       - name: "Tomatoes, Kamatis"
         price: "₱75/kg"
         image: "/images/products/FP-Tomatoes.jpg"
-        available: false   # <-- mark as not available
-
+        
       - name: "Eggplants, Talong"
         price: "₱50/kg"
         image: "/images/products/FP-Eggplant.jpg"
