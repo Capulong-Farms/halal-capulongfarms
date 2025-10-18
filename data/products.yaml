@@ -28,7 +28,7 @@ categories:
         price: "₱500/ton"
         image: "/images/FP-Corn-Hush.jpg"
         available: false   # <-- mark as not available
-        
+
       - name: "Tomatoes, Kamatis"
         price: "₱75/kg"
         image: "/images/placeholder.jpg"
