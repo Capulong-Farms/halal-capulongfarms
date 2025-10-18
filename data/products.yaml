@@ -33,7 +33,7 @@ categories:
         price: "₱75/kg"
         image: "/images/placeholder.jpg"
         available: true   # <-- mark as not available
-        
+
       - name: "Eggplants, Talong"
         price: "₱50/kg"
         image: "/images/FP-Eggplant.jpg"
