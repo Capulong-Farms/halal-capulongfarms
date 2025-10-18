@@ -31,7 +31,7 @@ categories:
         
       - name: "Tomatoes, Kamatis"
         price: "₱75/kg"
-        image: "/images/FP-Tomatoes.jpg"
+        # (image not defined yet) image: "/images/FP-Tomatoes.jpg"
         available: true   # <-- mark as not available
         
       - name: "Eggplants, Talong"
