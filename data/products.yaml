@@ -328,7 +328,6 @@ categories:
         image: "/images/LP-Duck-EggFreshS.jpg"
         available: true   # <-- mark as not available
 
-
       - name: "Ducks, Fresh Eggs, Medium"
         price: "₱---/tray"
         image: "/images/LP-Duck-EggFreshM.jpg"
@@ -393,7 +392,6 @@ categories:
         price: "₱---/tray"
         image: "/images/LP- Chick-EggFreshS.jpg"
         available: true   # <-- mark as not available
-
 
       - name: "Chicken, Fresh Eggs, Medium"
         price: "₱---/tray "
