@@ -77,6 +77,7 @@
             {{ else }}
               <img src="{{ .image }}" alt="{{ .name }}" loading="lazy" style="display:block;">
               <div class="watermark">NOT AVAILABLE</div>
+              <div class="not-available-icon">✖</div>
             {{ end }}
           </div>
           <h4>{{ .name }}</h4>
@@ -166,6 +167,21 @@
       bottom: 6px;
       right: 8px;
       background: #4CAF50;
+      color: white;
+      font-size: 0.8rem;
+      font-weight: bold;
+      padding: 4px 6px;
+      border-radius: 50%;
+      box-shadow: 0 0 4px rgba(0,0,0,0.3);
+      z-index: 10;
+    }
+
+    /* ❌ Not Available Icon (Bottom-right Red X) */
+    .not-available-icon {
+      position: absolute;
+      bottom: 6px;
+      right: 8px;
+      background: #e53935;
       color: white;
       font-size: 0.8rem;
       font-weight: bold;
