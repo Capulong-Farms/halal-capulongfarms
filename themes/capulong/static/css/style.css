@@ -96,7 +96,6 @@ img:not([src]) {
   color: var(--white);
 }
 
-/* Active Nav Link Highlight */
 .main-nav ul li a.active {
   background-color: var(--primary-color);
   color: var(--white);
@@ -183,11 +182,12 @@ img:not([src]) {
   background: #f9f9f9;
   cursor: pointer;
   border-radius: 6px;
+  transition: all 0.2s;
 }
 
 .tab-button.active {
   background: var(--primary-color);
-  color: var(--white);
+  color: #fff;
   border-color: var(--primary-color);
 }
 
@@ -207,6 +207,7 @@ img:not([src]) {
   box-shadow: 0 4px 6px rgba(0,0,0,0.1);
   transition: transform 0.3s, box-shadow 0.3s;
   text-align: center;
+  position: relative;
 }
 
 .product-card:hover {
@@ -258,12 +259,11 @@ img:not([src]) {
   font-weight: bold;
 }
 
-.available-icon {
+.available-icon,
+.not-available-icon {
   position: absolute;
   bottom: 6px;
   right: 8px;
-  background: #4CAF50;
-  color: white;
   font-size: 0.8rem;
   font-weight: bold;
   padding: 4px 6px;
@@ -272,19 +272,8 @@ img:not([src]) {
   z-index: 10;
 }
 
-.not-available-icon {
-  position: absolute;
-  bottom: 6px;
-  right: 8px;
-  background: #e53935;
-  color: white;
-  font-size: 0.8rem;
-  font-weight: bold;
-  padding: 4px 6px;
-  border-radius: 50%;
-  box-shadow: 0 0 4px rgba(0,0,0,0.3);
-  z-index: 10;
-}
+.available-icon { background: #4CAF50; color: #fff; }
+.not-available-icon { background: #e53935; color: #fff; }
 
 /* =============================
    Contact Section
@@ -357,7 +346,6 @@ img:not([src]) {
   gap: 12px;
   align-items: center;
   z-index: 99999;
-  pointer-events: auto;
 }
 
 .floating-contacts .contact-float {
@@ -388,27 +376,23 @@ img:not([src]) {
 .whatsapp-float { background: #25D366; color: #fff; }
 .messenger-float { background: #0084FF; color: #fff; }
 
-/* Force Messenger to show on mobile */
+/* Mobile fix for floating buttons */
 @media (max-width: 768px) {
   .floating-contacts {
-    right: 14px !important;
-    bottom: 16px !important;
-    display: flex !important;
-    flex-direction: column !important;
-    gap: 8px !important;
-    align-items: center !important;
-    z-index: 99999 !important;
-    pointer-events: auto !important;
+    right: 14px;
+    bottom: 16px;
+    gap: 8px;
   }
 
-  .floating-contacts .contact-float,
-  .floating-contacts .messenger-float {
-    display: flex !important;
-    visibility: visible !important;
+  .floating-contacts .contact-float {
+    width: 56px;
+    height: 56px;
   }
 
-  .floating-contacts .contact-float { width: 56px; height: 56px; }
-  .floating-contacts .contact-float svg { width: 24px; height: 24px; }
+  .floating-contacts .contact-float svg {
+    width: 24px;
+    height: 24px;
+  }
 }
 
 /* =============================
