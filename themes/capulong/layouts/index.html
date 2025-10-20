@@ -69,8 +69,7 @@
             {{ if .available }}
               <a href="https://wa.me/{{ $.Site.Params.whatsapp_number }}?text={{ urlquery (printf "Hello, I want to order %s at %s" .name .price) }}" 
                  target="_blank" 
-                 rel="noopener noreferrer"
-                 style="display:block; position: relative;">
+                 rel="noopener noreferrer">
                 <img src="{{ .image | relURL }}" alt="{{ .name }}" loading="lazy" onerror="this.src='/images/placeholder.png'">
                 <div class="available-icon">✔</div>
               </a>
@@ -89,7 +88,7 @@
     {{ end }}
   </div>
 
-  <!-- Inline Tab Script -->
+  <!-- Tabs Script -->
   <script>
     document.addEventListener("DOMContentLoaded", function() {
       const tabs = document.querySelectorAll(".tab-button");
