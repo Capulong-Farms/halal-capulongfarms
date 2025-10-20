@@ -335,63 +335,61 @@ img:not([src]) {
 }
 
 /* =============================
-   Floating Contacts (SVG)
+   Floating Contacts (SVG / Font Awesome)
 ============================= */
 .floating-contacts {
   position: fixed;
-  bottom: 22px;
-  right: 22px;
+  bottom: 30px;
+  right: 30px;
   display: flex;
   flex-direction: column;
-  gap: 12px;
-  align-items: center;
-  z-index: 99999;
+  gap: 15px;
+  z-index: 1000;
 }
 
-.floating-contacts .contact-float {
-  width: 64px;
-  height: 64px;
+.contact-float {
+  width: 80px;
+  height: 80px;
   border-radius: 50%;
-  display: inline-flex;
+  display: flex;
   align-items: center;
   justify-content: center;
-  box-shadow: 0 6px 14px rgba(0,0,0,0.18);
+  font-size: 40px; /* for <i> icons */
+  box-shadow: 0 6px 12px rgba(0,0,0,0.6);
+  transition: transform 0.3s, box-shadow 0.3s;
   text-decoration: none;
-  transition: transform 160ms ease, box-shadow 160ms ease;
-  transform: translateZ(0);
-  overflow: hidden;
+  color: white;
+  border: none;
 }
 
-.floating-contacts .contact-float svg {
+.contact-float i {
   display: block;
-  width: 28px;
-  height: 28px;
+  font-size: 40px; /* desktop default */
 }
 
 .contact-float:hover {
-  transform: translateY(-6px);
-  box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+  transform: scale(1.1);
+  box-shadow: 0 8px 16px rgba(0,0,0,0.6);
 }
 
-.whatsapp-float { background: #25D366; color: #fff; }
-.messenger-float { background: #0084FF; color: #fff; }
+.whatsapp-float { background-color: #25d366; }
+.messenger-float { background-color: #0084ff; }
 
-/* Mobile fix for floating buttons */
 @media (max-width: 768px) {
   .floating-contacts {
-    right: 14px;
-    bottom: 16px;
-    gap: 8px;
+    bottom: 20px;
+    right: 20px;
+    gap: 10px;
   }
 
-  .floating-contacts .contact-float {
-    width: 56px;
-    height: 56px;
+  .contact-float {
+    width: 70px;
+    height: 70px;
+    font-size: 35px;
   }
 
-  .floating-contacts .contact-float svg {
-    width: 24px;
-    height: 24px;
+  .contact-float i {
+    font-size: 28px; /* ensures Messenger icon shows on mobile */
   }
 }
 
