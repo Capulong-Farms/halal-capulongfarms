@@ -14,7 +14,7 @@ theme = 'capulong'
     url = "/"
     weight = 1
   [[menu.main]]
-    name = "Buy & Pay!"
+    name = "Buy&Pay!"
     url = "/#order"
     weight = 2
     [menu.main.params]
