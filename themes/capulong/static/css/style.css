@@ -1,6 +1,6 @@
-/* =============================
+/* ==============================
    Reset and Base Styles
-============================= */
+============================== */
 * {
   margin: 0;
   padding: 0;
@@ -43,9 +43,9 @@ img:not([src]) {
   background: url('/images/placeholder.png') center/contain no-repeat;
 }
 
-/* =============================
+/* ==============================
    Header
-============================= */
+============================== */
 .site-header {
   background: var(--white);
   box-shadow: 0 2px 10px rgba(0,0,0,0.1);
@@ -93,7 +93,6 @@ img:not([src]) {
 
 .main-nav a.cta-button:hover {
   background-color: #e89449;
-  color: var(--white);
 }
 
 .main-nav ul li a.active {
@@ -101,9 +100,9 @@ img:not([src]) {
   color: var(--white);
 }
 
-/* =============================
+/* ==============================
    Hero Section
-============================= */
+============================== */
 .hero {
   background: linear-gradient(135deg, var(--primary-color), #1e5a3f);
   color: var(--white);
@@ -121,9 +120,9 @@ img:not([src]) {
   opacity: 0.95;
 }
 
-/* =============================
+/* ==============================
    About Section
-============================= */
+============================== */
 .about-content {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -153,9 +152,9 @@ img:not([src]) {
   color: var(--white);
 }
 
-/* =============================
+/* ==============================
    Products Section
-============================= */
+============================== */
 .products-section {
   padding: 4rem 0;
   background: var(--bg-light);
@@ -275,9 +274,9 @@ img:not([src]) {
 .available-icon { background: #4CAF50; color: #fff; }
 .not-available-icon { background: #e53935; color: #fff; }
 
-/* =============================
+/* ==============================
    Contact Section
-============================= */
+============================== */
 .contact-section {
   padding: 4rem 0;
   background: var(--bg-light);
@@ -334,63 +333,72 @@ img:not([src]) {
   height: auto;
 }
 
-/* =============================
-   Floating Contacts (SVG & FA icons)
-============================= */
-.floating-contacts {
+/* ==============================
+   Floating Contact Buttons - Clean & Responsive
+============================== */
+.whatsapp-float {
   position: fixed;
-  bottom: 22px;
-  right: 22px;
-  display: flex;
-  flex-direction: column;
-  gap: 12px;
-  align-items: center;
-  z-index: 99999;
-}
-
-.floating-contacts .contact-float {
-  width: 64px;
-  height: 64px;
+  bottom: 20px;
+  right: 20px;
+  width: 70px;
+  height: 70px;
   border-radius: 50%;
-  display: inline-flex;
+  background-color: #25d366;
+  color: #fff;
+  font-size: 35px;
+  display: flex;
   align-items: center;
   justify-content: center;
-  box-shadow: 0 6px 14px rgba(0,0,0,0.18);
   text-decoration: none;
-  transition: transform 160ms ease, box-shadow 160ms ease;
-  transform: translateZ(0);
-  overflow: hidden;
+  box-shadow: 0 6px 12px rgba(0,0,0,0.6);
+  z-index: 1000;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.whatsapp-float:hover {
+  transform: scale(1.1);
+  box-shadow: 0 8px 16px rgba(0,0,0,0.6);
+}
+
+.messenger-float {
+  position: fixed;
+  bottom: 20px;
+  left: 20px;
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  background-color: #0084ff;
   color: #fff;
-  font-size: 28px;
+  font-size: 35px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  box-shadow: 0 6px 12px rgba(0,0,0,0.6);
+  z-index: 1000;
+  transition: transform 0.3s, box-shadow 0.3s;
 }
 
-.contact-float:hover {
-  transform: translateY(-6px);
-  box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+.messenger-float:hover {
+  transform: scale(1.1);
+  box-shadow: 0 8px 16px rgba(0,0,0,0.6);
 }
 
-/* Platform colors */
-.whatsapp-float { background: #25D366; }
-.messenger-float { background: #0084FF; }
-
-/* Mobile adjustments */
 @media (max-width: 768px) {
-  .floating-contacts {
-    right: 14px;
-    bottom: 16px;
-    gap: 8px;
+  .whatsapp-float,
+  .messenger-float {
+    width: 60px;
+    height: 60px;
+    font-size: 28px;
   }
 
-  .floating-contacts .contact-float {
-    width: 56px;
-    height: 56px;
-    font-size: 24px;
-  }
+  .whatsapp-float { bottom: 16px; right: 16px; }
+  .messenger-float { bottom: 16px; left: 16px; }
 }
 
-/* =============================
+/* ==============================
    Footer
-============================= */
+============================== */
 .site-footer {
   background: var(--text-dark);
   color: var(--white);
