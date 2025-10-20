@@ -1,98 +1,102 @@
 <!DOCTYPE html>
 <html lang="{{ .Site.LanguageCode }}">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="{{ .Site.Params.description }}">
-    
-    <meta name="keywords" content="Capulong Farms, Philippines farm, organic farm, organic, philippines farming, Candaba farm, Pampanga produce, farm to table, farm to consumer, business to consumer, b2c, organic vegetables, livestock, farm training, Lanang farm" />
-    <meta name="author" content="Capulong Farms Org." />
-    <meta property="og:title" content="Capulong Farms | Fresh Produce & Livestock in Pampanga">
-    <meta property="og:description" content="Family-owned farm in Lanang, Candaba offering farm-fresh produce, livestock, and agri training modules.">
-    <meta property="og:image" content="https://capulongfarms.org/images/farm-photo.jpg">
-    <meta property="og:url" content="https://capulongfarms.org">
-    <meta property="og:type" content="website">
-    <meta property="og:locale" content="en_PH">
-    <meta name="robots" content="index, follow" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="{{ .Site.Params.description }}">
+  <meta name="keywords" content="Capulong Farms, Philippines farm, organic farm, organic, philippines farming, Candaba farm, Pampanga produce, farm to table, farm to consumer, b2c, organic vegetables, livestock, farm training, Lanang farm">
+  <meta name="author" content="Capulong Farms Org.">
+  <meta property="og:title" content="Capulong Farms | Fresh Produce & Livestock in Pampanga">
+  <meta property="og:description" content="Family-owned farm in Lanang, Candaba offering farm-fresh produce, livestock, and agri training modules.">
+  <meta property="og:image" content="https://capulongfarms.org/images/farm-photo.jpg">
+  <meta property="og:url" content="https://capulongfarms.org">
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="en_PH">
+  <meta name="robots" content="index, follow">
 
-    <script type="application/ld+json">
-        {
-          "@context": "https://schema.org",
-          "@type": "Farm",
-          "@id": "https://capulongfarms.org/",
-          "name": "Capulong Farms",
-          "url": "https://capulongfarms.org",
-          "image": "https://capulongfarms.org/images/farm-photo.jpg",
-          "logo": "https://capulongfarms.org/images/logo.png",
-          "description": "Family-owned farm in Lanang, Candaba, Pampanga offering fresh farm produce, livestock, and hands-on agricultural training.",
-          "telephone": "+63 9XX XXX XXXX",
-          "priceRange": "₱₱",
-          "email": "leopoldo@capulongfarms.org",
-          "address": {
-            "@type": "PostalAddress",
-            "streetAddress": "Lanang, Candaba",
-            "addressLocality": "Candaba",
-            "addressRegion": "Pampanga",
-            "postalCode": "2013",
-            "addressCountry": "PH"
-          },
-          "geo": {
-            "@type": "GeoCoordinates",
-            "latitude":  15° 6'47.33"N,       // replace with your exact coords
-            "longitude": 120°49'7.91"E
-          },
-          "hasMap": "https://maps.google.com/?q=Capulong+Farms+Lanang+Candaba",
-          "openingHoursSpecification": [{
-            "@type": "OpeningHoursSpecification",
-            "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"],
-            "opens": "08:00",
-            "closes": "17:00"
-          }],
-          "sameAs": [
-            "https://www.facebook.com/YourPage",
-            "https://www.instagram.com/YourPage"
-          ],
-          "areaServed": "Pampanga, Philippines",
-          "founder": {
-            "@type": "Person",
-            "name": "Capulong Family"
-          }
-        }
-        </script>
+  <!-- ✅ Font Awesome (moved up, stable version with integrity) -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" integrity="sha512-9I6ukqU1bQ+4vJ4KebWGoQG2RMGErC4HwQzFwSl5UtbgOxRhq38S1nBW1EQN8kkhQ3YrQYKoGm9E+CPX9WrD5Q==" crossorigin="anonymous" referrerpolicy="no-referrer">
 
-    
-    <title>{{ block "title" . }}{{ .Site.Title }}{{ end }}</title>
-    <link rel="stylesheet" href="{{ "css/style.css" | relURL }}">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="{{ "css/style.css" | relURL }}">
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Farm",
+    "@id": "https://capulongfarms.org/",
+    "name": "Capulong Farms",
+    "url": "https://capulongfarms.org",
+    "image": "https://capulongfarms.org/images/farm-photo.jpg",
+    "logo": "https://capulongfarms.org/images/logo.png",
+    "description": "Family-owned farm in Lanang, Candaba, Pampanga offering fresh farm produce, livestock, and hands-on agricultural training.",
+    "telephone": "+63 9XX XXX XXXX",
+    "priceRange": "₱₱",
+    "email": "leopoldo@capulongfarms.org",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "Lanang, Candaba",
+      "addressLocality": "Candaba",
+      "addressRegion": "Pampanga",
+      "postalCode": "2013",
+      "addressCountry": "PH"
+    },
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 15.1131,
+      "longitude": 120.8189
+    },
+    "hasMap": "https://maps.google.com/?q=Capulong+Farms+Lanang+Candaba",
+    "openingHoursSpecification": [{
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"],
+      "opens": "08:00",
+      "closes": "17:00"
+    }],
+    "sameAs": [
+      "https://www.facebook.com/YourPage",
+      "https://www.instagram.com/YourPage"
+    ],
+    "areaServed": "Pampanga, Philippines",
+    "founder": {
+      "@type": "Person",
+      "name": "Capulong Family"
+    }
+  }
+  </script>
+
+  <title>{{ block "title" . }}{{ .Site.Title }}{{ end }}</title>
 </head>
+
 <body>
-    {{ partial "header.html" . }}
-    
-    <main>
-        {{ block "main" . }}{{ end }}
-    </main>
-    
-    {{ partial "footer.html" . }}
-    <!-- 💬 Floating Contact Buttons Container -->
-    <div class="floating-contacts">
-      <!-- WhatsApp Button -->
-      <a href="https://wa.me/{{ .Site.Params.whatsapp_number }}"
-         class="contact-float whatsapp-float"
-         target="_blank"
-         rel="noopener noreferrer"
-         aria-label="Chat on WhatsApp"
-         title="Chat with us on WhatsApp">
-        <i class="fab fa-whatsapp"></i>
-      </a>
-      <!-- Facebook Messenger Button -->
-      <a href="https://m.me/61582708015159"
-         class="contact-float messenger-float"
-         target="_blank"
-         rel="noopener noreferrer"
-         aria-label="Chat on Messenger"
-         title="Chat with us on Messenger">
-        <i class="fab fa-facebook-messenger"></i>
-      </a>
-    </div>    
+  {{ partial "header.html" . }}
+
+  <main>
+    {{ block "main" . }}{{ end }}
+  </main>
+
+  {{ partial "footer.html" . }}
+
+  <!-- 💬 Floating Contact Buttons -->
+  <div class="floating-contacts" style="z-index: 9999;">
+    <!-- WhatsApp Button -->
+    <a href="https://wa.me/{{ .Site.Params.whatsapp_number }}"
+       class="contact-float whatsapp-float"
+       target="_blank"
+       rel="noopener noreferrer"
+       aria-label="Chat on WhatsApp"
+       title="Chat with us on WhatsApp">
+      <i class="fab fa-whatsapp"></i>
+    </a>
+
+    <!-- Facebook Messenger Button -->
+    <a href="https://m.me/61582708015159"
+       class="contact-float messenger-float"
+       target="_blank"
+       rel="noopener noreferrer"
+       aria-label="Chat on Messenger"
+       title="Chat with us on Messenger">
+      <i class="fab fa-facebook-messenger"></i>
+    </a>
+  </div>
 </body>
 </html>
