@@ -122,6 +122,9 @@ img:not([src]) {
 .main-nav ul li a.active {
   background-color: var(--primary-color);
   color: var(--white);
+  font-weight: bold;
+  text-decoration: underline;
+  border-bottom: 3px solid var(--white);
 }
 
 /* =============================
@@ -582,15 +585,16 @@ main {
   }
 
   .main-nav a {
-    padding: 0.4rem 0.6rem;
-    font-size: 1rem !important;
+    padding: 0.5rem 0.7rem;
+    font-size: 1.1rem !important;
+    font-weight: 600 !important;
   }
 
   .main-nav ul li a.active {
     background-color: var(--primary-color) !important;
     color: var(--white) !important;
-    font-weight: bold;
-    text-decoration: underline;
+    font-weight: bold !important;
+    text-decoration: underline !important;
   }
 
   main {
