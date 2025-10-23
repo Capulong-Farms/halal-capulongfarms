@@ -17,9 +17,9 @@ theme = 'capulong'
     name = "Buy&Pay!"
     url = "/#order"
     weight = 2
-  #  [menu.main.params]
-  #    class = "cta-button"
-  # Note: the above Call to Action, CTA-button is commented out, to make way for other style
+    [menu.main.params]
+      class = "cta-button"
+  # Note: Call to Action, CTA-button to comment out, if you don't want Buy&Pay! always highlighted
   [[menu.main]]
     name = "Products"
     url = "/#products"
