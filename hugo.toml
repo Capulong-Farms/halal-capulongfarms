@@ -14,16 +14,14 @@ theme = 'capulong'
     url = "/"
     weight = 1
   [[menu.main]]
-    name = "
-    Buy&Pay!"
+    name = "Buy&Pay!"
     url = "/#order"
     weight = 2
-    [menu.main.params]
-      class = "cta-button"
-   # Note: the above Call to Action, CTA-button is commented out, to make way for other style
+  #  [menu.main.params]
+  #    class = "cta-button"
+  # Note: the above Call to Action, CTA-button is commented out, to make way for other style
   [[menu.main]]
-    name = "
-    Products"
+    name = "Products"
     url = "/#products"
     weight = 3
 
