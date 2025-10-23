@@ -583,7 +583,7 @@ main {
 
   .main-nav a {
     padding: 0.4rem 0.6rem;
-    font-size: 0.95rem;
+    font-size: 0.95rem !important;
   }
 
   main {
