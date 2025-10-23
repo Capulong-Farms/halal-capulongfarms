@@ -197,6 +197,8 @@ main {
   font-size: 2.5rem;
   color: var(--primary-color);
   margin-bottom: 3rem;
+  margin-top: -70px;
+  padding-top: 70px;
 }
 
 .tabs {
