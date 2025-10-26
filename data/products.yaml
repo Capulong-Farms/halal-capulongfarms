@@ -109,27 +109,27 @@ categories:
 
       - name: "Compost Bags, 25kg"
         price: "₱10/kg"
-        image: "/images/PF-Compost-25.jpg"
+        image: "/images/FP-Compost-25.jpg"
         available: true
 
       - name: "Compost Bags, 50kg"
         price: "₱10/kg"
-        image: "/images/PF-Compost-50.jpg"
+        image: "/images/FP-Compost-50.jpg"
         available: true
 
       - name: "Silage, drum"
         price: "₱900/drum"
-        image: "/images/PF-Silage.jpg"
+        image: "/images/FP-Silage.jpg"
         available: false
 
       - name: "Silage, drum (refill)"
         price: "₱500/drum"
-        image: "/images/PF-Silage-refill.jpg"
+        image: "/images/FP-Silage-refill.jpg"
         available: false
 
       - name: "Charcoal Briquettes, Uling"
         price: "₱100/kg"
-        image: "/images/PF-Charcoal.jpg"
+        image: "/images/FP-Charcoal.jpg"
         available: false
 
   - name: "Fish & Aquatics"
