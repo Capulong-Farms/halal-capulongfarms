@@ -1,63 +1,22 @@
 <!-- 💬 Floating Contact Buttons Container -->
 <div class="floating-contacts">
   <!-- WhatsApp Button -->
-  <a href="javascript:void(0);" onclick="sendWhatsappMessage()" 
+  <a href="https://wa.me/{{ .Site.Params.whatsapp_number }}"
      class="contact-float whatsapp-float"
+     target="_blank"
+     rel="noopener noreferrer"
      aria-label="Chat on WhatsApp"
      title="Chat with us on WhatsApp">
     <i class="fab fa-whatsapp"></i>
   </a>
   
   <!-- Facebook Messenger Button -->
-  <a href="javascript:void(0);" onclick="sendMessengerMessage()" 
+  <a href="https://m.me/61582708015159"
      class="contact-float messenger-float"
+     target="_blank"
+     rel="noopener noreferrer"
      aria-label="Chat on Messenger"
      title="Chat with us on Messenger">
     <i class="fab fa-facebook-messenger"></i>
   </a>
 </div>
-
-<script>
-  // Cart and Messaging Functions
-  const CART_KEY = 'capulong_cart';
-  
-  function getCart() {
-    const cart = localStorage.getItem(CART_KEY);
-    return cart ? JSON.parse(cart) : [];
-  }
-  
-  function buildCartMessage() {
-    const cart = getCart();
-    
-    if (cart.length === 0) {
-      // Empty cart message
-      return 'Hi, I browsed your products and I\'m interested to purchase. Kindly return my message for more details?';
-    }
-    
-    // Cart has items - build detailed message
-    let message = 'I would like to order the following items:\n\n';
-    let total = 0;
-    
-    cart.forEach(item => {
-      const price = parseFloat(item.price.replace(/[^0-9.-]+/g, ''));
-      message += `• ${item.name} (${item.price}) x ${item.quantity}\n`;
-      total += price * item.quantity;
-    });
-    
-    message += `\nTotal: ₱${total.toFixed(2)}\n\nPlease confirm availability and delivery.`;
-    
-    return message;
-  }
-  
-  function sendWhatsappMessage() {
-    const message = buildCartMessage();
-    const whatsappUrl = 'https://wa.me/{{ .Site.Params.whatsapp_number }}?text=' + encodeURIComponent(message);
-    window.open(whatsappUrl, '_blank');
-  }
-  
-  function sendMessengerMessage() {
-    const message = buildCartMessage();
-    const messengerUrl = 'https://m.me/61582708015159?text=' + encodeURIComponent(message);
-    window.open(messengerUrl, '_blank');
-  }
-</script>
