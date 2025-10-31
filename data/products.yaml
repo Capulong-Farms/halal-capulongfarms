@@ -2,7 +2,7 @@ categories:
   - name: "Farm Products"
     id: "produce"
     products:
-      - name: "Sweet Corn, Grade A"
+      - name: "Sweet Corn, Grade A TEST20251031"
         price: "₱12/pc"
         image: "/images/FP-Corn-GradeA.jpg"
         available: true
