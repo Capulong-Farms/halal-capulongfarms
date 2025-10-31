@@ -8,6 +8,11 @@ theme = 'capulong'
   whatsapp_number = "966542761620"
   gcash_qr_image = "/images/gcash-qr.png"
 
+# Disable default taxonomies
+disableKinds = ["taxonomy", "term"]
+
+[taxonomies]
+
 [menu]
   [[menu.main]]
     name = "Home"
@@ -27,7 +32,7 @@ theme = 'capulong'
 
 # Cache busting for CSS and images
 [outputs]
-  home = ["HTML", "JSON"]
+  home = ["HTML"]
 
 # Disable caching during development
 [caches]
