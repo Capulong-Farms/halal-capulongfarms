@@ -6,51 +6,61 @@ categories:
         price: "₱12/pc"
         image: "/images/FP-Corn-GradeA.jpg"
         available: true
+        discontinue: false
 
       - name: "Sweet Corn, Grade B"
         price: "₱10/pc"
         image: "/images/FP-Corn-GradeB.jpg"
         available: true
+        discontinue: false
 
       - name: "Sweet Corn, Grade C"
         price: "₱8/pc"
         image: "/images/FP-Corn-GradeC.jpg"
         available: true
+        discontinue: false
 
       - name: "Sweet Corn, Reject"
         price: "₱5/pc"
         image: "/images/FP-Corn-Reject.jpg"
         available: true
+        discontinue: false
 
       - name: "Sweet Corn, Bagaso"
         price: "₱500/ton"
         image: "/images/FP-Corn-Hush.jpg"
         available: false
+        discontinue: false
 
       - name: "Tomatoes, Kamatis"
         price: "₱75/kg"
         image: "/images/FP-Tomatoes.jpg"
         available: true
+        discontinue: false
 
       - name: "Eggplants, Talong"
         price: "₱50/kg"
         image: "/images/FP-Eggplant.jpg"
         available: true
+        discontinue: true
 
       - name: "Lady Finger, Okra"
         price: "₱40/kg"
         image: "/images/FP-LadyFinger.jpg"
         available: true
+        discontinue: false
 
       - name: "Bitter Gourd, Amplalaya"
         price: "₱50/kg"
         image: "/images/FP-BitterGourd.jpg"
         available: true
+        discontinue: true
 
       - name: "Bottle Gourd, Upo"
         price: "₱25/kg"
         image: "/images/FP-BottleGourd.jpg"
         available: true
+        discontinue: false
 
       - name: "Long Beans, Sitaw"
         price: "₱50/kg"

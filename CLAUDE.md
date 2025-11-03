@@ -30,7 +30,9 @@ This is a Hugo static site for Capulong Farms, a farm-to-table business website.
 ### Product Management System
 Products are managed through `data/products.yaml` with structured categories:
 - Each category has an `id` and `name`
-- Products include: `name`, `price`, `image` path, `available` status
+- Products include: `name`, `price`, `image` path, `available` status, and `discontinue` status
+- **`available`**: Controls seasonal availability (true/false) - shows "NOT AVAILABLE" watermark when false
+- **`discontinue`**: Controls product visibility (true/false) - products with `discontinue: true` are HIDDEN from website entirely
 - Image naming follows prefix convention: `FA-*` (Fish), `FP-*` (Farm Products), `LP-*` (Livestock), etc.
 
 ### Key Configuration Parameters

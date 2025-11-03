@@ -64,6 +64,7 @@
     <div id="tab-{{ $index }}" class="tab-content {{ if eq $index 0 }}active{{ end }}">
       <div class="products-grid">
         {{ range $category.products }}
+        {{ if not .discontinue }}
         <div class="product-card {{ if not .available }}not-available{{ end }}" data-product-name="{{ .name }}" data-product-price="{{ .price }}">
           <div class="product-image">
             {{ if .available }}
@@ -87,6 +88,7 @@
           </div>
           {{ end }}
         </div>
+        {{ end }}
         {{ end }}
       </div>
     </div>
