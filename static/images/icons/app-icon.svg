@@ -1,0 +1,29 @@
+<svg width="512" height="512" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="512" height="512" fill="#2d5a3d" rx="80"/>
+  
+  <!-- Farm House -->
+  <path d="M100 350 L200 250 L312 250 L412 350 L412 420 L100 420 Z" fill="#8B4513"/>
+  <rect x="140" y="320" width="40" height="60" fill="#654321"/>
+  <rect x="200" y="300" width="112" height="120" fill="#D2691E"/>
+  <rect x="220" y="320" width="25" height="40" fill="#8B4513"/>
+  <rect x="265" y="320" width="25" height="25" fill="#87CEEB"/>
+  
+  <!-- Roof -->
+  <path d="M90 350 L200 240 L312 240 L422 350 L312 350 L200 350 Z" fill="#8B0000"/>
+  
+  <!-- Trees -->
+  <circle cx="80" cy="300" r="30" fill="#228B22"/>
+  <rect x="75" y="320" width="10" height="30" fill="#8B4513"/>
+  
+  <circle cx="432" cy="280" r="35" fill="#228B22"/>
+  <rect x="427" y="305" width="10" height="35" fill="#8B4513"/>
+  
+  <!-- Text -->
+  <text x="256" y="480" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="28" font-weight="bold">Capulong Farms</text>
+  
+  <!-- Vegetables -->
+  <circle cx="350" cy="380" r="8" fill="#FF6347"/>
+  <circle cx="370" cy="390" r="6" fill="#32CD32"/>
+  <circle cx="330" cy="400" r="7" fill="#FFD700"/>
+</svg>
