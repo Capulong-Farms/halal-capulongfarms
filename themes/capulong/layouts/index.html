@@ -81,8 +81,16 @@
           <h4>{{ .name }}</h4>
           <p class="price">{{ .price }}</p>
           {{ if .available }}
+          <div class="quantity-container">
+            <label class="quantity-label">Quantity:</label>
+            <div class="quantity-controls">
+              <button class="qty-btn minus-btn" onclick="changeQuantity('{{ .name | urlize }}', -1)">-</button>
+              <input type="number" class="qty-input" id="qty-{{ .name | urlize }}" value="1" min="1" max="9999" onchange="validateQuantity('{{ .name | urlize }}')" oninput="validateQuantityInput('{{ .name | urlize }}')" onkeypress="return isNumberKey(event)">
+              <button class="qty-btn plus-btn" onclick="changeQuantity('{{ .name | urlize }}', 1)">+</button>
+            </div>
+          </div>
           <div style="display: flex; gap: 0.5rem; margin-top: 0.5rem;">
-            <button class="add-to-cart-btn" onclick="addToCart('{{ .name }}', '{{ .price }}')">
+            <button class="add-to-cart-btn" onclick="addToCartWithQuantity('{{ .name }}', '{{ .price }}', '{{ .name | urlize }}')">
               <i class="fas fa-shopping-cart"></i> Add to Cart
             </button>
           </div>
@@ -122,6 +130,98 @@
       
       saveCart(cart);
       alert(productName + ' added to cart!');
+    }
+    
+    function addToCartWithQuantity(productName, productPrice, productId) {
+      const quantityInput = document.getElementById('qty-' + productId);
+      const quantity = parseInt(quantityInput.value) || 1;
+      
+      const cart = getCart();
+      const existingItem = cart.find(item => item.name === productName);
+      
+      if (existingItem) {
+        existingItem.quantity += quantity;
+      } else {
+        cart.push({ name: productName, price: productPrice, quantity: quantity });
+      }
+      
+      saveCart(cart);
+      alert(quantity + 'x ' + productName + ' added to cart!');
+      
+      // Reset quantity to 1 after adding
+      quantityInput.value = 1;
+    }
+    
+    function changeQuantity(productId, change) {
+      const quantityInput = document.getElementById('qty-' + productId);
+      let currentValue = parseInt(quantityInput.value) || 1;
+      let newValue = currentValue + change;
+      
+      // Ensure value stays within bounds
+      if (newValue < 1) newValue = 1;
+      if (newValue > 9999) newValue = 9999;
+      
+      quantityInput.value = newValue;
+    }
+    
+    function validateQuantity(productId) {
+      const quantityInput = document.getElementById('qty-' + productId);
+      let value = quantityInput.value.trim();
+      
+      // If empty or invalid, set to 1
+      if (value === '' || isNaN(value) || value <= 0) {
+        quantityInput.value = 1;
+        return;
+      }
+      
+      let numValue = parseInt(value);
+      
+      // Ensure value stays within bounds
+      if (numValue < 1) numValue = 1;
+      if (numValue > 9999) numValue = 9999;
+      
+      quantityInput.value = numValue;
+    }
+    
+    function validateQuantityInput(productId) {
+      const quantityInput = document.getElementById('qty-' + productId);
+      let value = quantityInput.value;
+      
+      // Remove any non-numeric characters
+      value = value.replace(/[^0-9]/g, '');
+      
+      // If empty after cleaning, don't set to 1 immediately (let user continue typing)
+      if (value === '') {
+        quantityInput.value = '';
+        return;
+      }
+      
+      // Convert to number and validate bounds
+      let numValue = parseInt(value);
+      if (numValue < 1) numValue = 1;
+      if (numValue > 9999) numValue = 9999;
+      
+      quantityInput.value = numValue;
+    }
+    
+    function isNumberKey(evt) {
+      var charCode = (evt.which) ? evt.which : evt.keyCode;
+      // Allow: backspace, delete, tab, escape, enter
+      if (charCode == 46 || charCode == 8 || charCode == 9 || charCode == 27 || charCode == 13) {
+        return true;
+      }
+      // Allow: Ctrl+A, Ctrl+C, Ctrl+V, Ctrl+X
+      if (charCode == 65 && evt.ctrlKey === true || 
+          charCode == 67 && evt.ctrlKey === true || 
+          charCode == 86 && evt.ctrlKey === true ||
+          charCode == 88 && evt.ctrlKey === true) {
+        return true;
+      }
+      // Ensure that it is a number and stop the keypress
+      if (charCode < 48 || charCode > 57) {
+        return false;
+      }
+      return true;
     }
     
     function updateCartCount() {
