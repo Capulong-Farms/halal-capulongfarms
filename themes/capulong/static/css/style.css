@@ -86,14 +86,14 @@ img:not([src]) {
 }
 
 .logo-styled {
-  color: var(--primary-color);
+  color: var(--primary-color) !important;
   font-size: 1.3rem;
   font-weight: 700;
   white-space: nowrap;
   margin: 0;
   padding: 0.4rem 1rem;
-  background: white;
-  border: 2px solid var(--primary-color);
+  background: white !important;
+  border: 2px solid var(--primary-color) !important;
   border-radius: 6px;
   font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
   letter-spacing: 0.3px;
