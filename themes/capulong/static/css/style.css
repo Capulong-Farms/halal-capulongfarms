@@ -132,7 +132,7 @@ img:not([src]) {
   background-color: var(--primary-color);
   color: var(--white);
   font-weight: bold;
-  text-decoration: underline;
+  text-decoration: none;
   border-bottom: 3px solid var(--white);
 }
 
@@ -603,7 +603,7 @@ main {
     background-color: var(--primary-color) !important;
     color: var(--white) !important;
     font-weight: bold !important;
-    text-decoration: underline !important;
+    text-decoration: none !important;
   }
 
   main {
