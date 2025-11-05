@@ -16,6 +16,9 @@
     
     <link rel="stylesheet" href="{{ "css/style.css" | relURL }}">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    
+    <!-- Meta tag for WhatsApp number -->
+    <meta name="whatsapp-number" content="{{ .Site.Params.whatsapp_number }}">
 </head>
 <body>
     {{ partial "header.html" . }}
@@ -26,6 +29,10 @@
     
     {{ partial "footer.html" . }}
     {{ partial "contacts-button.html" . }}
+    
+    <!-- JavaScript Files -->
+    <script src="{{ "js/cart.js" | relURL }}" defer></script>
+    <script src="{{ "js/app.js" | relURL }}" defer></script>
     
     <!-- Active Navigation Link Detection Script -->
     <script>

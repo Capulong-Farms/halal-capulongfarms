@@ -157,7 +157,7 @@ categories:
 
       - name: "Tilapia, Frozen"
         price: "₱120/kg"
-        image: "/images/FA-TilapiaFrozen.jpg"
+        image: "/images/FA-Tilapia-Frozen.jpg"
         available: true
 
       - name: "Tilapia, Daing Kapampangan (Dried)"
