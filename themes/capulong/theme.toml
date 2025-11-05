@@ -1,7 +1,7 @@
-name = "Capulong"
+name = "Capulong Halal"
 license = "MIT"
-description = "Custom theme for Capulong Farms"
-homepage = "https://capulongfarms.org/"
-tags = ["farm", "ecommerce", "simple", "affordable", "cheap", "fresh", "organic"]
+description = "Custom theme for Capulong Farms Halal Division"
+homepage = "https://halal.capulongfarms.org/"
+tags = ["farm", "ecommerce", "halal", "certified", "fresh", "organic", "islamic"]
 features = ["responsive"]
 min_version = "0.120.0"

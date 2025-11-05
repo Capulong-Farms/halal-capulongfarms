@@ -1,10 +1,10 @@
-baseURL = 'https://capulongfarms.org/'
+baseURL = 'https://halal.capulongfarms.org/'
 languageCode = 'en-ph'
-title = 'Farm-to-Table Pampanga | Fresh Produce & Livestock – Capulong Farms'
+title = 'Halal Certified Products | Farm-to-Table Pampanga – Capulong Farms'
 theme = 'capulong'
 
 [params]
-  description = "Capulong Farms is a family-owned farm in Lanang, Candaba, Pampanga offering fresh farm produce, livestock, and hands-on agricultural training. Farm-to-table goodness straight from Pampanga."
+  description = "Capulong Farms Halal Division - Certified halal farm produce, livestock, and agricultural products from Lanang, Candaba, Pampanga. Islamic-compliant farm-to-table goodness."
   whatsapp_number = "966542761620"
   gcash_qr_image = "/images/gcash-qr.png"
 
@@ -15,7 +15,7 @@ disableKinds = ["taxonomy", "term"]
 
 [menu]
   [[menu.main]]
-    name = "Capulong Farms"
+    name = "Halal Capulong Farms"
     url = "#"
     weight = 1
     [menu.main.params]
