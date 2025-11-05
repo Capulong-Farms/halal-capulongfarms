@@ -74,16 +74,20 @@ img:not([src]) {
 }
 
 .header-content {
-  display: flex;
-  justify-content: flex-start;
+  display: grid;
+  grid-template-columns: 1fr auto;
   align-items: center;
   padding: 1rem 0;
   gap: 1rem;
 }
 
-/* Logo removed - cart now positioned manually on right */
+/* Navigation takes left column, cart takes right column */
+.main-nav {
+  justify-self: start;
+}
+
 .cart-actions {
-  margin-left: auto;
+  justify-self: end;
 }
 
 .main-nav ul {
@@ -586,7 +590,7 @@ main {
   .main-nav ul {
     gap: 0.3rem;
     flex-wrap: wrap;
-    justify-content: flex-end;
+    justify-content: flex-start;
   }
 
   .main-nav a {
