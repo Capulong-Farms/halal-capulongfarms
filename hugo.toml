@@ -15,19 +15,18 @@ disableKinds = ["taxonomy", "term"]
 
 [menu]
   [[menu.main]]
-    name = "Home"
+    name = "Capulong Farms"
     url = "/"
     weight = 1
-  [[menu.main]]
-    name = "Buy&Pay!"
-    url = "/#order"
-    weight = 2
     [menu.main.params]
       class = "cta-button"
-  # Note: Call to Action, CTA-button to comment out, if you don't want Buy&Pay! always highlighted
   [[menu.main]]
     name = "Products"
     url = "/#products"
+    weight = 2
+  [[menu.main]]
+    name = "Buy&Pay!"
+    url = "/#order"
     weight = 3
 
 # Cache busting for CSS and images

@@ -75,35 +75,15 @@ img:not([src]) {
 
 .header-content {
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-start;
   align-items: center;
   padding: 1rem 0;
   gap: 1rem;
 }
 
-.logo {
-  flex-shrink: 0;
-}
-
-.logo-styled {
-  color: var(--primary-color) !important;
-  font-size: 1.3rem;
-  font-weight: 700;
-  white-space: nowrap;
-  margin: 0;
-  padding: 0.4rem 1rem;
-  background: white !important;
-  border: 2px solid var(--primary-color) !important;
-  border-radius: 6px;
-  font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
-  letter-spacing: 0.3px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 170px;
-  height: auto;
-  min-height: 36px;
-  box-sizing: border-box;
+/* Logo removed - cart now positioned manually on right */
+.cart-actions {
+  margin-left: auto;
 }
 
 .main-nav ul {
