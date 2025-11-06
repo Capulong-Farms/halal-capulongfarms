@@ -1,325 +1,35 @@
 categories:
-  - name: "Farm Products"
+  - name: "Halal Groceries"
     id: "produce"
     products:
-      - name: "Sweet Corn, Grade A"
-        price: "₱12/pc"
-        image: "/images/FP-Corn-GradeA.jpg"
-        available: true
-        discontinue: false
-
-      - name: "Sweet Corn, Grade B"
-        price: "₱10/pc"
-        image: "/images/FP-Corn-GradeB.jpg"
-        available: true
-        discontinue: false
-
-      - name: "Sweet Corn, Grade C"
-        price: "₱8/pc"
-        image: "/images/FP-Corn-GradeC.jpg"
-        available: true
-        discontinue: false
-
-      - name: "Sweet Corn, Reject"
-        price: "₱5/pc"
-        image: "/images/FP-Corn-Reject.jpg"
-        available: true
-        discontinue: false
-
-      - name: "Sweet Corn, Bagaso"
-        price: "₱500/ton"
-        image: "/images/FP-Corn-Hush.jpg"
+      - name: "Sambal Belacan"
+        price: "₱___/pc"
+        image: "/images/GR-Sambal-Belacan.jpg"
         available: false
         discontinue: false
 
-      - name: "Tomatoes, Kamatis"
-        price: "₱75/kg"
-        image: "/images/FP-Tomatoes.jpg"
-        available: true
-        discontinue: false
-
-      - name: "Eggplants, Talong"
-        price: "₱50/kg"
-        image: "/images/FP-Eggplant.jpg"
-        available: true
-        discontinue: false
-
-      - name: "Lady Finger, Okra"
-        price: "₱40/kg"
-        image: "/images/FP-LadyFinger.jpg"
-        available: true
-        discontinue: false
-
-      - name: "Bitter Gourd, Amplalaya"
-        price: "₱50/kg"
-        image: "/images/FP-BitterGourd.jpg"
-        available: true
-        discontinue: false
-
-      - name: "Bottle Gourd, Upo"
-        price: "₱25/kg"
-        image: "/images/FP-BottleGourd.jpg"
-        available: true
-        discontinue: false
-
-      - name: "Long Beans, Sitaw"
-        price: "₱50/kg"
-        image: "/images/FP-LongBean.jpg"
-        available: true
-        discontinue: false
-
-      - name: "Green Papaya, Small"
-        price: "₱25/kg"
-        image: "/images/FP-Papaya-GreenS.jpg"
-        available: true
-        discontinue: false
-
-      - name: "Green Papaya, Medium"
-        price: "₱30/kg"
-        image: "/images/FP-Papaya-GreenM.jpg"
-        available: true
-        discontinue: false
-
-      - name: "Green Papaya, Large"
-        price: "₱35/kg"
-        image: "/images/FP-Papaya-GreenL.jpg"
-        available: true
-        discontinue: false
-
-      - name: "Ripe Papaya, Small"
-        price: "₱25/kg"
-        image: "/images/FP-Papaya-RipeS.jpg"
-        available: true
-        discontinue: false
-
-      - name: "Ripe Papaya, Medium"
-        price: "₱30/kg"
-        image: "/images/FP-Papaya-RipeM.jpg"
-        available: true
-        discontinue: false
-
-      - name: "Ripe Papaya, Large"
-        price: "₱35/kg"
-        image: "/images/FP-Papaya-RipeL.jpg"
-        available: true
-        discontinue: false
-
-      - name: "Palay, wet, 50kg"
-        price: "₱17/kg"
-        image: "/images/FP-Palay-50-wet.jpg"
-        available: true
-        discontinue: false
-
-      - name: "Palay, dry, 50kg"
-        price: "₱21/kg"
-        image: "/images/FP-Palay-50-dry.jpg"
-        available: true
-        discontinue: false
-
-      - name: "Rice, Bigas 25kg"
-        price: "₱30/kg"
-        image: "/images/FP-Rice-25.jpg"
-        available: true
-        discontinue: false
-
-      - name: "Rice, Glutinous, Malagkit, 25kg"
-        price: "₱35/kg"
-        image: "/images/FP-Rice-25-glutinous.jpg"
-        available: true
-        discontinue: false
-
-      - name: "Compost Bags, 25kg"
-        price: "₱10/kg"
-        image: "/images/FP-Compost-25.jpg"
-        available: true
-        discontinue: false
-
-      - name: "Compost Bags, 50kg"
-        price: "₱10/kg"
-        image: "/images/FP-Compost-50.jpg"
-        available: true
-        discontinue: false
-
-      - name: "Silage, drum"
-        price: "₱900/drum"
-        image: "/images/FP-Silage.jpg"
+ 
+      - name: "Sambal Tumis"
+        price: "₱___/pc"
+        image: "/images/GR-Sambal-Tumis.jpg"
         available: false
         discontinue: false
 
-      - name: "Silage, drum (refill)"
-        price: "₱500/drum"
-        image: "/images/FP-Silage-refill.jpg"
+      - name: "Kicap Manis"
+        price: "₱___/pc"
+        image: "/images/GR-Kicap-Manis.jpg"
         available: false
         discontinue: false
 
-      - name: "Charcoal Briquettes, Uling"
-        price: "₱100/kg"
-        image: "/images/FP-Charcoal.jpg"
+      - name: "Kicap Pekat"
+        price: "₱___/pc"
+        image: "/images/GR-Kicap Pekat.jpg"
         available: false
         discontinue: false
 
-  - name: "Fish & Aquatics"
-    id: "aquatics"
-    products:
-      - name: "Tilapia, Live"
-        price: "₱100/kg"
-        image: "/images/FA-Tilapia-Live.jpg"
-        available: true
-        discontinue: false
-
-      - name: "Tilapia, Fresh"
-        price: "₱90/kg"
-        image: "/images/FA-Tilapia-Fresh.jpg"
-        available: true
-        discontinue: false
-
-      - name: "Tilapia, Frozen"
-        price: "₱120/kg"
-        image: "/images/FA-Tilapia-Frozen.jpg"
-        available: true
-        discontinue: false
-
-      - name: "Tilapia, Daing Kapampangan (Dried)"
-        price: "₱125/kg"
-        image: "/images/FA-Tilapia-Daing.jpg"
-        available: true
-        discontinue: false
-
-      - name: "Tilapia, Marinated"
-        price: "₱125/kg"
-        image: "/images/FA-Tilapia-Marinated.jpg"
-        available: true
-        discontinue: false
-
-      - name: "Tilapia, Marinated, Boneless"
-        price: "₱130/kg"
-        image: "/images/FA-Tilapia-Marinated-BL.jpg"
-        available: true
-        discontinue: false
-
-      - name: "Bangus, Live"
-        price: "₱120/kg"
-        image: "/images/FA-Bangus-Live.jpg"
-        available: true
-        discontinue: false
-
-      - name: "Bangus, Fresh"
-        price: "₱110/kg"
-        image: "/images/FA-Bangus-Fresh.jpg"
-        available: true
-        discontinue: false
-
-      - name: "Bangus, Frozen"
-        price: "₱140/kg"
-        image: "/images/FA-Bangus-Frozen.jpg"
-        available: true
-        discontinue: false
-
-      - name: "Bangus, Marinated"
-        price: "₱155/kg"
-        image: "/images/FA-Bangus-Marinated.jpg"
-        available: true
-        discontinue: false
-
-      - name: "Bangus, Marinated, Boneless"
-        price: "₱160/kg"
-        image: "/images/FA-Bangus-Marinated-BL.jpg"
-        available: true
-        discontinue: false
-
-      - name: "Catfish, Hito, Live"
-        price: "₱120/kg"
-        image: "/images/FA-Catfish-Live.jpg"
-        available: true
-        discontinue: false
-
-      - name: "Catfish, Hito, Fresh"
-        price: "₱110/kg"
-        image: "/images/FA-Catfish-Fresh.jpg"
-        available: true
-        discontinue: false
-
-      - name: "Catfish, Hito, Frozen"
-        price: "₱140/kg"
-        image: "/images/FA-Catfish-Frozen.jpg"
-        available: true
-        discontinue: false
-
-      - name: "Snail, Feeds"
-        price: "₱120/kg"
-        image: "/images/FA-Snail-Feeds.jpg"
-        available: true
-        discontinue: false
-
-      - name: "Snail, Fresh"
-        price: "₱110/kg"
-        image: "/images/FA-Snail-Fresh.jpg"
-        available: true
-        discontinue: false
-
-      - name: "Snail, Frozen"
-        price: "₱140/kg"
-        image: "/images/FA-Snail-Frozen.jpg"
-        available: true
-        discontinue: false
-
-  - name: "Processed Foods"
+  - name: "Halal Processed Foods"
     id: "processed"
     products:
-      - name: "Cat Food, Bottled"
-        price: "₱100/bottle"
-        image: "/images/PF-CatFood-Bottled.jpg"
-        available: true
-        discontinue: false
-
-      - name: "Cat Food, Canned"
-        price: "₱100/can"
-        image: "/images/PF-CatFood-Canned.jpg"
-        available: true
-        discontinue: false
-
-      - name: "Cat Food, Bag"
-        price: "₱50/pack"
-        image: "/images/PF-CatFood-Bag.jpg"
-        available: true
-        discontinue: false
-
-      - name: "Tomatoes, Bottled"
-        price: "₱100/bottle"
-        image: "/images/PF-Tomatoes-Bottled.jpg"
-        available: true
-        discontinue: false
-
-      - name: "Tomatoes, Canned"
-        price: "₱100/can"
-        image: "/images/PF-Tomatoes-Canned.jpg"
-        available: true
-        discontinue: false
-
-      - name: "Tomatoes, Dried"
-        price: "₱50/pack"
-        image: "/images/PF-Tomatoes-Dried.jpg"
-        available: true
-        discontinue: false
-
-      - name: "Chilli, Bottled"
-        price: "₱100/bottle"
-        image: "/images/PF-Chilli-Bottled.jpg"
-        available: true
-        discontinue: false
-
-      - name: "Chilli, Canned"
-        price: "₱100/can"
-        image: "/images/PF-Chilli-Canned.jpg"
-        available: true
-        discontinue: false
-
-      - name: "Chilli, Dried"
-        price: "₱50/pack"
-        image: "/images/PF-Chilli-Dried.jpg"
-        available: true
-        discontinue: false
-
       - name: "Embotido"
         price: "₱200/pack"
         image: "/images/PF-Homemade-Embotido.jpg"
@@ -332,96 +42,30 @@ categories:
         available: true
         discontinue: false
 
-      - name: "Keropok Lekor (frozen)"
+      - name: "Keropok Lekor"
         price: "₱100/pack"
         image: "/images/PF-Homemade-Lekor.jpg"
-        available: true
+        available: false
         discontinue: false
 
       - name: "Keropok Kering"
         price: "₱100/pack"
         image: "/images/PF-Homemade-Kering.jpg"
-        available: true
+        available: false
         discontinue: false
 
-      - name: "Mushroom Chips"
-        price: "₱200/pack"
-        image: "/images/PF-Homemade-Chips-Mush.jpg"
-        available: true
-        discontinue: false
-
-      - name: "Mushroom Chips, Salted Eggs"
-        price: "₱300/pack"
-        image: "/images/PF-Homemade-Chips-Mush-Salted.jpg"
-        available: true
-        discontinue: false
-
-  - name: "Livestocks & Poultry"
+  - name: "Halal Meat-Poultry"
     id: "livestocks"
     products:
-      - name: "Ducklings (<3 days)"
-        price: "₱25/chick"
-        image: "/images/LP-Duck-Duckling1.jpg"
-        available: true
-        discontinue: false
-
-      - name: "Ducklings (<2 weeks)"
-        price: "₱75/chick"
-        image: "/images/LP-Duck-Duckling2.jpg"
-        available: true
-        discontinue: false
-
-      - name: "Ducks, Layers"
-        price: "₱225/chick"
-        image: "/images/LP-Duck-Layer.jpg"
-        available: true
-        discontinue: false
-
-      - name: "Ducks, Cull"
-        price: "₱120/chick"
-        image: "/images/LP-Duck-Cull.jpg"
-        available: true
-        discontinue: false
-
-      - name: "Ducks, Fresh Eggs, Small"
-        price: "₱---/tray"
-        image: "/images/LP-Duck-EggFreshS.jpg"
-        available: true
-        discontinue: false
-
-      - name: "Ducks, Fresh Eggs, Medium"
-        price: "₱---/tray"
-        image: "/images/LP-Duck-EggFreshM.jpg"
-        available: true
-        discontinue: false
-
-      - name: "Ducks, Fresh Eggs, Large"
-        price: "₱---/tray"
-        image: "/images/LP-Duck-EggFreshL.jpg"
-        available: true
-        discontinue: false
-
       - name: "Ducks, Salted Eggs "
         price: "₱15/pc"
         image: "/images/LP-Duck-EggSalted.jpg"
         available: true
         discontinue: false
 
-      - name: "Ducks, Balut"
-        price: "₱15/pc"
-        image: "/images/LP-Duck-EggBalut.jpg"
-        available: true
-        discontinue: false
-
       - name: "Ducks, Penoy"
         price: "₱10/pc"
         image: "/images/LP-Duck-EggPenoy.jpg"
-        available: true
-        discontinue: false
-
-      - name: "Ducks, Abnoy"
-        price: "₱5/pc"
-        image: "/images/LP-Duck-EggAbnoy.jpg"
         available: true
         discontinue: false
 
@@ -437,60 +81,6 @@ categories:
         available: true
         discontinue: false
 
-      - name: "Soho (<3 days)"
-        price: "₱15/chick"
-        image: "/images/LP-Chick-Soho1.jpg"
-        available: true
-        discontinue: false
-
-      - name: "Soho (<2 weeks)"
-        price: "₱50/chick"
-        image: "/images/LP-Chick-Soho2.jpg"
-        available: true
-        discontinue: false
-
-      - name: "Chicken, Layers"
-        price: "₱150/chick"
-        image: "/images/LP-Chick-Layer.jpg"
-        available: true
-        discontinue: false
-
-      - name: "Chicken, Cull"
-        price: "₱80/chick"
-        image: "/images/LP-Chick-Cull.jpg"
-        available: true
-        discontinue: false
-
-      - name: "Chicken, Fresh Eggs, Small"
-        price: "₱---/tray"
-        image: "/images/LP-Chick-EggFreshS.jpg"
-        available: true
-        discontinue: false
-
-      - name: "Chicken, Fresh Eggs, Medium"
-        price: "₱---/tray "
-        image: "/images/LP-Chick-EggFreshM.jpg"
-        available: true
-        discontinue: false
-
-      - name: "Chicken, Fresh Eggs, Large"
-        price: "₱---/tray"
-        image: "/images/LP-Chick-EggFreshL.jpg"
-        available: true
-        discontinue: false
-
-      - name: "Chicken, Kwek"
-        price: "₱10/pc"
-        image: "/images/LP-Chick-EggKewk.jpg"
-        available: true
-        discontinue: false
-
-      - name: "Chicken, Abnoy"
-        price: "₱5/pc"
-        image: "/images/LP-Chick-EggAbnoy.jpg"
-        available: true
-        discontinue: false
-
       - name: "Chicken, Fresh Meat, Halal"
         price: "₱75/kg"
         image: "/images/LP-Chick-MeatFresh.jpg"
@@ -503,48 +93,9 @@ categories:
         available: true
         discontinue: false
 
-      - name: "Goats, Doeling (<1 year)"
-        price: "₱___/pc"
-        image: "/images/LP-Goat-Doeling.jpg"
-        available: true
-        discontinue: false
-
-      - name: "Goats, Buckling (<1 year)"
-        price: "₱___/pc"
-        image: "/images/LP-Goat-Buckling.jpg"
-        available: true
-        discontinue: false
-
-      - name: "Goats, Doe (1-5 years)"
-        price: "₱___/pc"
-        image: "/images/LP-Goat-Doe.jpg"
-        available: true
-        discontinue: false
-
-      - name: "Goats, Buck (1-5 years)"
-        price: "₱___/pc"
-        image: "/images/LP-Goat-Buck.jpg"
-        available: true
-        discontinue: false
-
-      - name: "Goats, Old Doe (>5 years)"
-        price: "₱___/pc"
-        image: "/images/LP-Goat-DoeOld.jpg"
-        available: true
-        discontinue: false
-
-      - name: "Goats, Old Buck (>5 years)"
-        price: "₱___/pc"
-        image: "/images/LP-Goat-BuckOld.jpg"
-        available: true
-        discontinue: false
-
-      - name: "Goats, Bulog"
-        price: "₱___/pc"
-        image: "/images/LP-Goat-Bulog.jpg"
-        available: true
-        discontinue: false
-
+  - name: "Halal Meat-Livestocks"
+    id: "coursesonline"
+    products:
       - name: "Goat, Fresh Meat, Halal"
         price: "₱100/kg"
         image: "/images/LP-Goat-MeatFresh.jpg"
@@ -569,197 +120,29 @@ categories:
         available: true
         discontinue: false
 
-  - name: "Online Training"
-    id: "coursesonline"
-    products:
-      - name: " Duck Growing Online Training"
-        price: "₱1,000/day"
-        image: "/images/TCO-Duck.jpg"
-        available: true
-        discontinue: false
-
-      - name: "Mushroom Farming Online Training"
-        price: "₱1,000/day"
-        image: "/images/TCO-Mushroom.jpg"
-        available: true
-        discontinue: false
-
-      - name: "Composting Online Training"
-        price: "₱1,000/day"
-        image: "/images/TCO-Compost.jpg"
-        available: true
-        discontinue: false
-
-      - name: "Goat Farming Online Training"
-        price: "₱1,000/day"
-        image: "/images/TCO-Goat.jpg"
-        available: true
-        discontinue: false
-
-      - name: "Aquaponics Online Training"
-        price: "₱1,000/day"
-        image: "/images/TCO-Aqua.jpg"
-        available: true
-        discontinue: false
-
-      - name: "Silage Making Online Training"
-        price: "₱1,000/day"
-        image: "/images/TCO-Silage.jpg"
-        available: true
-        discontinue: false
-
-      - name: "DIY Steamer Online Training"
-        price: "₱1,000/day"
-        image: "/images/TCO-Steamer.jpg"
-        available: true
-        discontinue: false
-
-  - name: "On-site Training"
-    id: "coursesonsite"
-    products:
-      - name: "Duck Growing On Site Training"
-        price: "₱1,500/day"
-        image: "/images/TC-Duck.jpg"
-        available: true
-        discontinue: false
-
-      - name: "Mushroom Farming On-site Training"
-        price: "₱1,500/day"
-        image: "/images/TC-Mushroom.jpg"
-        available: true
-        discontinue: false
-
-      - name: "Composting On-site Training"
-        price: "₱1,500/day"
-        image: "/images/TC-Compost.jpg"
-        available: true
-        discontinue: false
-
-      - name: "Goat Farming On-site Training"
-        price: "₱1,500/day"
-        image: "/images/TC-Goat.jpg"
-        available: true
-        discontinue: false
-
-      - name: "Aquaponics On-site Training"
-        price: "₱1,500/day"
-        image: "/images/TC-Aqua.jpg"
-        available: true
-        discontinue: false
-
-      - name: "Silage Making On-site Training"
-        price: "₱1,500/day"
-        image: "/images/TC-Silage.jpg"
-        available: true
-        discontinue: false
-
-      - name: "DIY Steamer On-site Training"
-        price: "₱1,500/day"
-        image: "/images/TC-Steamer.jpg"
-        available: true
-        discontinue: false
-
-  - name: "Training Literatures"
+  - name: "Free Islamic Literatures"
     id: "coursesliteratures"
     products:
-      - name: "Duck Growing Literatures"
-        price: "₱500/book"
-        image: "/images/TL-Duck.jpg"
+      - name: "Madinah Arabic Course-Volume1"
+        price: "₱0/book"
+        image: "/images/TL-Madinah1.jpg"
         available: true
         discontinue: false
 
-      - name: "Mushroom Farming Literatures"
-        price: "₱500/book"
-        image: "/images/TL-Mushroom.jpg"
+      - name: "Madinah Arabic Course-Volume2"
+        price: "₱0/book"
+        image: "/images/TL-Madinah1=2.jpg"
         available: true
         discontinue: false
 
-      - name: "Composting Literatures"
-        price: "₱500/book"
-        image: "/images/TL-Compost.jpg"
+      - name: "Madinah Arabic Course-Volume3"
+        price: "₱0/book"
+        image: "/images/TL-Madinah3.jpg"
         available: true
         discontinue: false
 
-      - name: "Goat Farming Literatures"
-        price: "₱500/day"
-        image: "/images/TL-Goat.jpg"
+      - name: "Mufti Menk Ramadan Series (Audio)"
+        price: "₱0/book"
+        image: "/images/TL-MuftiMenk-Ramadan.jpg"
         available: true
-        discontinue: false
-
-      - name: "Aquaponics Literatures"
-        price: "₱500/day"
-        image: "/images/TL-Aqua.jpg"
-        available: true
-        discontinue: false
-
-      - name: "Silage Making Literatures"
-        price: "₱500/day"
-        image: "/images/TL-Silage.jpg"
-        available: true
-        discontinue: false
-
-      - name: "DIY Steamer Literatures"
-        price: "₱500/day"
-        image: "/images/TL-Steamer.jpg"
-        available: true
-        discontinue: false
-
-  - name: "Block Works"
-    id: "blockworks"
-    products:
-      - name: "Hollow Blocks, 4-inch"
-        price: "₱10/block"
-        image: "/images/BW-HollowBlock4.jpg"
-        available: false
-        discontinue: false
-
-      - name: "Hollow Blocks, 6-inch"
-        price: "₱10/block"
-        image: "/images/BW-HollowBlock6.jpg"
-        available: false
-        discontinue: false
-
-      - name: "Hollow Blocks, 8-inch"
-        price: "₱10/block"
-        image: "/images/BW-HollowBlock8.jpg"
-        available: false
-        discontinue: false
-
-      - name: "Hollow Blocks, 1-foot"
-        price: "₱10/block"
-        image: "/images/BW-HollowBlock1ft.jpg"
-        available: false
-        discontinue: false
-
-      - name: "Hollow Post, 8-feet "
-        price: "₱10/block"
-        image: "/images/BW-HollowPost8.jpg"
-        available: false
-        discontinue: false
-
-  - name: "Website Creation"
-    id: "website"
-    products:
-      - name: "Website Domain Naming"
-        price: "₱___/website"
-        image: "/images/Website-Domain.jpg"
-        available: false
-        discontinue: false
-
-      - name: "Website Hosting"
-        price: "₱___/website"
-        image: "/images/Website-Hosting.jpg"
-        available: false
-        discontinue: false
-
-      - name: "Website Design & Consultancy"
-        price: "₱___/website"
-        image: "/images/Website-Design.jpg"
-        available: false
-        discontinue: false
-
-      - name: "Website Maintenance"
-        price: "₱___/website"
-        image: "/images/Website-Maintenance.jpg"
-        available: false
         discontinue: false
