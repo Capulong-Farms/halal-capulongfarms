@@ -350,9 +350,15 @@ categories:
 **Location**: `C:\Afiq\Homepage\CapulongFarms\Chocolatey\halal-capulongfarms\themes\capulong\static\js\app.js`
 
 **Core Functions**:
-- `initializeTabs()` - Product category tab switching
+- `initializeTabs()` - Product category tab switching with external link support
 - `getContactMessage()` - Build message from cart contents
 - `attachFloatingContactHandlers()` - Handle contact button clicks
+
+**External Link Navigation**:
+- **Feature**: Detects tabs with `data-external-link` attribute
+- **Behavior**: Opens external links in new tab via `window.open()`
+- **Implementation**: Uses `e.preventDefault()` to prevent default button behavior
+- **Example**: "More Capulong Farms Products" tab redirects to https://capulongfarms.org/
 
 **Contact Integration**:
 - **WhatsApp**: 966542761620
@@ -597,20 +603,20 @@ hugo -D
 ## 13. Recent Changes (Git History)
 
 ```
-[PENDING] Fix image cache conflict - rename farm-photo.jpg to halal-photo.jpg ⭐ LATEST ENHANCEMENT
+c997ab5 Fix external link navigation for 'More Capulong Farms Products' tab ⭐ LATEST FIX
+3d5d3ba Fix image cache conflict and add external link navigation
+fefd236 Reorganize product categories from 5 to 3 categories for better navigation
+5279bed Fix watermark text truncation for full 'NOT AVAILABLE' visibility
+0fb0151 Enhance 'NOT AVAILABLE' watermark with Ferrari red styling
+f1e1d32 Update comprehensive stable state documentation for halal grocery store
 9e68bcb Remove test text from homepage title
 d2615c5 Transform business from farm to halal grocery store  ⭐ KEY TRANSFORMATION
 fd152ab Test deployment pipeline - add Tested251105 to h1
 36b8af3 Customize for halal business branding and certification
-befa891 Update stable state documentation for clean PWA/Netlify-free version
-ef4d846 Remove PWA and Netlify dependencies for Cloudflare deployment
-0606c8d updated products.yaml
-6d60d1d Fix Capulong Farms nav link to prevent page reload
-d54939d Add CSS cache busting to fix desktop browser cache issues
-c39163e Force deployment to ensure new header is live
 ```
 
-**Latest Enhancement**: Image cache conflict resolution by renaming `farm-photo.jpg` to `halal-photo.jpg` to differentiate from main site's farm landscape image.
+**Latest Fix** (commit c997ab5): Fixed external link navigation for "More Capulong Farms Products" tab by adding preventDefault() to tab click handler. This ensures the tab redirects properly to https://capulongfarms.org/ without showing fallback message, enabling seamless hyperlink loop between halal and main farm portals.
+
 **Key Transformation** (commit d2615c5): Complete business model change from traditional farm to halal grocery store specializing in Islamic-certified products.
 
 ---
