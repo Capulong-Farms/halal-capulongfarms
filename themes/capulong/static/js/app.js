@@ -15,7 +15,9 @@ function initializeTabs() {
   const contents = document.querySelectorAll(".tab-content");
 
   tabs.forEach(tab => {
-    tab.addEventListener("click", () => {
+    tab.addEventListener("click", (e) => {
+      e.preventDefault();
+      
       // Check if this tab has an external link
       if (tab.dataset.externalLink) {
         window.open(tab.dataset.externalLink, '_blank');
