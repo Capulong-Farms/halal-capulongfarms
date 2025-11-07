@@ -10,7 +10,7 @@
 
     <div class="about-content" style="margin-top: 3rem;">
       <div class="about-image">
-        <img src="/images/farm-photo.jpg" alt="Capulong Farms">
+        <img src="/images/halal-photo.jpg" alt="Capulong Farms Halal Division">
       </div>
 
       <div class="about-text">
@@ -84,13 +84,18 @@
     <!-- Tabs Navigation -->
     <div class="tabs">
       {{ range $index, $category := .Site.Data.products.categories }}
-        <button class="tab-button {{ if eq $index 0 }}active{{ end }}" data-tab="tab-{{ $index }}">{{ $category.name }}</button>
+        <button class="tab-button {{ if eq $index 0 }}active{{ end }}" data-tab="tab-{{ $index }}"{{ if $category.external_link }} data-external-link="{{ $category.external_link }}"{{ end }}>{{ $category.name }}</button>
       {{ end }}
     </div>
 
     <!-- Tabs Content -->
     {{ range $index, $category := .Site.Data.products.categories }}
     <div id="tab-{{ $index }}" class="tab-content {{ if eq $index 0 }}active{{ end }}">
+      {{ if $category.external_link }}
+        <div class="external-link-message">
+          <p>Click the "{{ $category.name }}" tab above to visit <strong>{{ $category.external_link }}</strong> and explore our complete product range!</p>
+        </div>
+      {{ else }}
       <div class="products-grid">
         {{ range $category.products }}
         {{ if not .discontinue }}
@@ -128,6 +133,7 @@
         {{ end }}
         {{ end }}
       </div>
+      {{ end }}
     </div>
     {{ end }}
   </div>

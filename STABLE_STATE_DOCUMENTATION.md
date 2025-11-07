@@ -389,7 +389,7 @@ categories:
 - **PF-*** - Processed Foods  
 - **LP-*** - Livestock & Poultry
 - **TL-*** - Training Literature
-- **farm-photo.jpg** - Main farm image
+- **halal-photo.jpg** - Halal certification badge (renamed from farm-photo.jpg)
 - **gcash-qr.png** - Payment QR code
 - **placeholder*.png** - Fallback images
 
@@ -579,7 +579,7 @@ hugo -D
 
 ### Essential Images
 - `/static/images/gcash-qr.png` - Payment QR code
-- `/static/images/farm-photo.jpg` - Main farm image
+- `/static/images/halal-photo.jpg` - Halal certification badge (renamed to prevent cache conflict)
 - `/static/images/placeholder.png` - Fallback image
 
 ### Generated/Cache Files (Can Delete)
@@ -597,6 +597,7 @@ hugo -D
 ## 13. Recent Changes (Git History)
 
 ```
+[PENDING] Fix image cache conflict - rename farm-photo.jpg to halal-photo.jpg ⭐ LATEST ENHANCEMENT
 9e68bcb Remove test text from homepage title
 d2615c5 Transform business from farm to halal grocery store  ⭐ KEY TRANSFORMATION
 fd152ab Test deployment pipeline - add Tested251105 to h1
@@ -609,6 +610,7 @@ d54939d Add CSS cache busting to fix desktop browser cache issues
 c39163e Force deployment to ensure new header is live
 ```
 
+**Latest Enhancement**: Image cache conflict resolution by renaming `farm-photo.jpg` to `halal-photo.jpg` to differentiate from main site's farm landscape image.
 **Key Transformation** (commit d2615c5): Complete business model change from traditional farm to halal grocery store specializing in Islamic-certified products.
 
 ---

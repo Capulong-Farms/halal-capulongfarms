@@ -808,6 +808,28 @@ main {
   display: block; 
 }
 
+/* External Link Message Styling */
+.external-link-message {
+  text-align: center;
+  padding: 3rem 2rem;
+  background: linear-gradient(135deg, var(--primary-color), #1e5a3f);
+  border-radius: 10px;
+  margin: 2rem 0;
+  box-shadow: var(--shadow-lg);
+}
+
+.external-link-message p {
+  color: var(--white);
+  font-size: 1.2rem;
+  line-height: 1.6;
+  margin: 0;
+}
+
+.external-link-message strong {
+  color: var(--secondary-color);
+  font-weight: bold;
+}
+
 .products-grid {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));

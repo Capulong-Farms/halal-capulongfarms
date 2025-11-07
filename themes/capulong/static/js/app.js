@@ -16,6 +16,13 @@ function initializeTabs() {
 
   tabs.forEach(tab => {
     tab.addEventListener("click", () => {
+      // Check if this tab has an external link
+      if (tab.dataset.externalLink) {
+        window.open(tab.dataset.externalLink, '_blank');
+        return;
+      }
+      
+      // Regular tab functionality
       tabs.forEach(t => t.classList.remove("active"));
       contents.forEach(c => c.classList.remove("active"));
       tab.classList.add("active");

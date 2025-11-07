@@ -139,3 +139,8 @@ categories:
         image: "/images/TL-MuftiMenk-Ramadan.jpg"
         available: true
         discontinue: false
+
+  - name: "More Capulong Farms Products"
+    id: "more-products"
+    external_link: "https://capulongfarms.org/"
+    products: []
