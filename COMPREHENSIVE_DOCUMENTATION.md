@@ -453,8 +453,9 @@ Please confirm availability and delivery.
 - **Color**: Ferrari red (#DC143C) for high visibility
 - **Effects**: Enhanced text shadow with red glow
 - **Background**: Semi-transparent red background with faded border
-- **Size**: Responsive sizing (1rem/0.9rem) to fit within image boundaries
-- **Features**: Backdrop blur, rounded corners, auto-sizing with max-width constraint
+- **Size**: Compact sizing (0.75rem/0.7rem) with condensed font for full text visibility
+- **Typography**: Condensed font stretch with tighter letter spacing (-0.5px)
+- **Features**: Backdrop blur, rounded corners, ensures full "NOT AVAILABLE" text is visible
 
 ### Contact Integration
 
@@ -604,7 +605,8 @@ hugo -D
 ## 13. Recent Changes (Git History)
 
 ```
-[PENDING] Enhance 'NOT AVAILABLE' watermark with Ferrari red styling  ⭐ LATEST UPDATE
+[PENDING] Fix watermark text truncation for full visibility  ⭐ LATEST UPDATE
+[PENDING] Enhance 'NOT AVAILABLE' watermark with Ferrari red styling
 9e68bcb Remove test text from homepage title
 d2615c5 Transform business from farm to halal grocery store  ⭐ KEY TRANSFORMATION
 fd152ab Test deployment pipeline - add Tested251105 to h1
