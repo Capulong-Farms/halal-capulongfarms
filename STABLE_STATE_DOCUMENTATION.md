@@ -2,7 +2,7 @@
 ## Complete E-commerce Platform with Advanced Discount System and Perfect Messenger Integration
 
 ### Current Stable Version
-- **Commit Hash**: `45c4aec`
+- **Commit Hash**: `ce71656`
 - **Commit Message**: "Perfect synchronization: Complete discount system, fixed dialog functionality, and identical cart/floating button behavior"
 - **Date**: November 15, 2025
 - **Author**: Claude Code Enhancement
