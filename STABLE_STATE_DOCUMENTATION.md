@@ -2,8 +2,8 @@
 ## Complete E-commerce Platform with Advanced Discount System and Perfect Messenger Integration
 
 ### Current Stable Version
-- **Commit Hash**: `[PENDING]`
-- **Commit Message**: "Add Deal of the Day feature with header button integration and floating dialog"
+- **Commit Hash**: `122c018`
+- **Commit Message**: "Fix Deal of the Day mobile dialog height to show Add to Cart button"
 - **Date**: November 17, 2025
 - **Author**: Claude Code Enhancement
 - **Branch**: main
