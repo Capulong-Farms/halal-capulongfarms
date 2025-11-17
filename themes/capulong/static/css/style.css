@@ -2217,7 +2217,12 @@ main {
     left: 15px;
     right: 15px;
     top: 50px;
-    max-height: 400px;
+    max-height: calc(100vh - 100px);
+  }
+  
+  .deal-dialog-content {
+    max-height: calc(100vh - 160px);
+    overflow-y: auto;
   }
   
   .deal-product-card .product-image {

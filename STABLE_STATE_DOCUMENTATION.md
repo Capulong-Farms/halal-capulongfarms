@@ -36,6 +36,8 @@ This is a complete transformation of the original farm business into a halal gro
 - **Smart Logic**: Automatically displays first available product with discount as Deal of the Day (Sambal Belacan)
 - **Complete Functionality**: Full product card replica with image, pricing, discount watermark, quantity controls, and Add to Cart
 - **Responsive Design**: Mobile-optimized with proper scaling and positioning
+- **Mobile Dialog Fix**: Fixed mobile viewport height calculation to ensure Add to Cart button visibility
+- **Scrollable Content**: Mobile dialog content is scrollable when needed for full button access
 - **Visual Design**: Orange gradient (#ff6b35 to #ffa500) for prominence while maintaining site aesthetics
 - **Dialog Positioning**: Opens from header location (top-right) for natural user experience
 - **Height Matching**: Perfect alignment with Cart button (40px height)
